@@ -1,0 +1,1643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A9A06AE06B89E553A8C6646F39D27675 /* Plaid */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0E980BF6D2B63EE1D7073683D945567 /* Build configuration list for PBXAggregateTarget "Plaid" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Plaid;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00643DAEB621943BB53AECE6190F7D65 /* Plaid-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 478A7A31FBC804A6766FFCDB43FEAD99 /* Plaid-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0094785E1793AB1A67196B1C9E448068 /* bofa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AF8EBF99208CF70777B39DE7A233E /* bofa@3x.png */; };
+		025A567317752074CEA929A23B8AA4EA /* PLDCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C325001D4A0FB107555BD05C025B328 /* PLDCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FDB21E17E5768F6D8EB828289D6CB8 /* PLDLinkBankMFABaseStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B58876030D33EFEB928E8FB8103C2C /* PLDLinkBankMFABaseStepView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0615A76D8DF2302490FA216FE3E09AE1 /* PLDLinkStyledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 018D619960B8D2412BD85A8EAD6B7DE4 /* PLDLinkStyledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06B66702F9D21B666D2FF3F440E0FACF /* PLDLinkBankMFAExplainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B96BB603D93CE647B343B07CC0122 /* PLDLinkBankMFAExplainerView.m */; };
+		086EE9CD77F365C9F4A1CE24D4F37680 /* plaid_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704AF251DC5E521D77612A73EC639FFA /* plaid_ios_sdk.framework */; };
+		08E2C72CA27977E5E175ABAD815BE367 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = CED9725A1C6C0F81765CC9DA5FFE3D7E /* us.png */; };
+		0F14FC902033A5E98E25C1A3052E4985 /* fidelity.png in Resources */ = {isa = PBXBuildFile; fileRef = 41CD7D26282364488DE8BB6BD170FE9B /* fidelity.png */; };
+		0F63D3E9163BA42ACDB5CF59A20CC0E9 /* PLDLinkBankMFAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 157FD1D1FD59FD8E839A28B46B985F97 /* PLDLinkBankMFAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC056ACC68DDFDFC14E194FADF09CA8 /* UIColor+PLDLinkUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA5042C61471BF70DEB0A51E2A6EE /* UIColor+PLDLinkUIColor.m */; };
+		138B5F838FCA19A87CD1843189437095 /* PLDLinkBankTileView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE8CA3AC4E01DFD89078C1D5A153C42 /* PLDLinkBankTileView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A5C595AE728297D5B8BCE01F278764 /* PLDLinkBankMFAExplainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 837A651D51EFCE53B8D96FA7242F7970 /* PLDLinkBankMFAExplainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1513C373D8D2521FE74AF3C538EBB774 /* schwab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5249E563E211A3961C67911275B9EAC5 /* schwab@3x.png */; };
+		1B6FD64E59BAEA3FE5BE56A5FB127D7D /* citi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF1B0F987C9B540CBD36840C9590867 /* citi@3x.png */; };
+		1DAE002E1C17DB7C753F74C3A29A98DD /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 44751E32B976BCB9564C8B96A5005C00 /* amex.png */; };
+		225412978E689108C63D74B3F6F55160 /* PLDLinkResourceBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = EB19497AB7D818C64DC0B9521D52F93A /* PLDLinkResourceBundle.m */; };
+		226828291BEBCC5C11C4490691882415 /* PLDLinkBankMFALoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 086216F928EBAC9661418DA9BD6FFA83 /* PLDLinkBankMFALoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2627CAAB211D7763CC5BA719F66513FB /* PLDLongTailInstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = EA881237AEF2935F7A5968AA038650C6 /* PLDLongTailInstitution.m */; };
+		2807D50B7D0E41434062CE74FB2D1E73 /* citi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E15C2F087C16EC44E8316FE27EF5BA /* citi@2x.png */; };
+		28BC9A98915103F8B5361D87E817B4F0 /* PLDLinkNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F52E2C677D9041BAC81D298BA8D661 /* PLDLinkNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28EE21BEB35546BB173F7E29AC27735E /* PLDLinkStyledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9443640E5F9CF7D4E029284B4812D37 /* PLDLinkStyledButton.m */; };
+		28FBA6292DCB53DC9F6CB8FEC564E107 /* PLDLinkBankMFAContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA46CF295D1EFEAEDC0C0205A386F3C /* PLDLinkBankMFAContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290B52CAD795526D8062AE0CE4B69F1D /* amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB04A97BD8EACAFFEA002601ADC5289 /* amex@3x.png */; };
+		2A57376CCD53558828973F2F0FBE0645 /* PLDLinkNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E888BB9AA7CF2AAE5B4285EB248EEF3B /* PLDLinkNavigationViewController.m */; };
+		2AEF8EC284836E2D3641C38EEE36EC0E /* PLDResourceBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 935B24A981B7AEF4A9431991DEECBCB9 /* PLDResourceBundle.m */; };
+		2B1B5E5BBE5FB0CC5FACCD2E21C4AA28 /* PLDLinkSelectionToLoginAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C6130C4376D892B47CD7DDE775442B /* PLDLinkSelectionToLoginAnimator.m */; };
+		2F4E1430326ECF2FD9C63AEF78980EE3 /* td@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC5DD24599F39029014120560A53C2 /* td@2x.png */; };
+		2F5B9BAAC34DA490DCAF4CE76B2389ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 441770DAFB03C619C5B6CC75123EC357 /* Localizable.strings */; };
+		30820017C992FB34C0A0B77C503C2871 /* PLDLinkBankSelectionSearchResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA46095C5B4C994D8F53C5B1603A49CC /* PLDLinkBankSelectionSearchResultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31003E5D1B4925F2E0F6E041E1F852BF /* chase.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D454370D9E146A610AABFD5D7E9F768 /* chase.png */; };
+		3298ED9634DCF075250D36B0C5D78398 /* plaid-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6FABA51A56DF3FB5C14CDF57C13B4A /* plaid-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3463C081B2ED23795F517EE090146FDA /* PLDLinkBankMFASelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18580002E3A975B23F5F90771977EE80 /* PLDLinkBankMFASelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A939DB91003A1177ECDC2AB5DFA4A /* NSString+PlaidLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0063D4724B662010056E0617C87A5550 /* NSString+PlaidLocalization.m */; };
+		37C4CF94235A8F03C2F2B789E5EE4F16 /* PLDLinkBankMFAChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D07F7925FEB3E1410A3F31FA497298 /* PLDLinkBankMFAChoiceView.m */; };
+		3975B993B2D2667B34558804C5836F5E /* td.png in Resources */ = {isa = PBXBuildFile; fileRef = 7031042BB3668F2B4B2236A00F484C94 /* td.png */; };
+		3D9FA482E1D4BA7F03FA21A8424B888C /* PLDLinkBankSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDA1A5D1BCE314F66850F44D994371 /* PLDLinkBankSelectionViewController.m */; };
+		3F7B8935C329878A04EBB655E62C9452 /* citi.png in Resources */ = {isa = PBXBuildFile; fileRef = D941A2CF3D561BDFC719057EDB64B1AA /* citi.png */; };
+		3FB44CD30AF1BFA727763CDC25600D79 /* PLDLinkBankMFASelectionsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F75F9007F41E99FE2CB89C5117D9DD82 /* PLDLinkBankMFASelectionsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6A7FDF8EEA0B32DEF69406D628E87 /* PLDLinkBankMFALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A742F04805766C5F01F52A141A8C27D1 /* PLDLinkBankMFALoginViewController.m */; };
+		4532DD3B2336802846D8A91006C741BF /* PLDLinkResourceBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 289559CD0AB1C0F97397DADB4257BDB8 /* PLDLinkResourceBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472C71E3BDA8B73C50D5334473709DD9 /* PLDLinkStyledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F9131DB9207AB540F0124D3241C87711 /* PLDLinkStyledTextField.m */; };
+		4746103786998F1F0902FFBA61C70C2C /* nfcu.png in Resources */ = {isa = PBXBuildFile; fileRef = 584175910EF9F8BA60C1CC2EE5338BEE /* nfcu.png */; };
+		47F12EE4D2C23CCEAE7E209FC8F53431 /* PLDLinkBankSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C89FA483328D6147F8CA62D7E1F43A /* PLDLinkBankSelectionView.m */; };
+		4A4C2099717AE99FBEE742C55FDF6E6B /* PLDLinkBankMFAContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FE9372269082BB1FE195251B84AC05 /* PLDLinkBankMFAContainerView.m */; };
+		501B1E3C41223B1B0CA5BB5918ABEB75 /* NSDictionary+Null.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7C7C0AE0FFBFDFDD10EE2E67AAD31B /* NSDictionary+Null.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5770179378A95E09DD0A67167435FA07 /* PLDLinkBankSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3545E9A1E7E9F4BD63E27F39BC7266 /* PLDLinkBankSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596FA9543736683866C91DEAB449F80C /* wells@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 738BD71E9894EFC1A647C66DD4B06C49 /* wells@3x.png */; };
+		5BCF78E903EEC480077EA5367DC77D6C /* PLDLinkBankMFABaseStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = A406EB579D8E81E960F9B67A3819F19E /* PLDLinkBankMFABaseStepView.m */; };
+		5D80CCA4B97C0174C9B747DD4A7C1DCE /* PLDTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = F6440C43CF5D1C8043351E65760E926F /* PLDTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D968225567DCFAB5BEF902D449E39A7 /* PLDConnectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FB862E597CCDE43F3E55231D2589CC /* PLDConnectResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8481E527A990DF4CB7669E3F1333AB /* PLDLinkBankMFALoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B52E293D29C7FF53552AB9C40A26954 /* PLDLinkBankMFALoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA4CE4890F220F60C46DC0BB264A524 /* PLDLinkError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8FAA9430B8480E0C22730E716C4F1B /* PLDLinkError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EF02C120C0AB4E38AFA92894E661BA9 /* PLDTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5812AE5F6C97858E2CE24C3117D09D06 /* PLDTransaction.m */; };
+		655CA6078F7A9B2B0583D6815C561C75 /* bofa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49E129BC242B77AD60459556D346F8C /* bofa@2x.png */; };
+		65D5C91E5E8030612CC0782227C6B5D4 /* Pods-PlaidIntegration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB6270EBE2C699DDEF1C7AF841DA5BC /* Pods-PlaidIntegration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DE57B8F0A13318E0D5DBA3345C5C96 /* PLDInstitution.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F7C9A9FD9CBC5353F2E9DB19AB2628 /* PLDInstitution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6703A79E2B29EB783B10FBB79A370C9B /* suntrust@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8345301E8B804A7EEF759E2E4B868755 /* suntrust@3x.png */; };
+		6A54F8A273764603DE496988BDA0EA5B /* bofa.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B6B103D1505685A0308AE71BBABBE3 /* bofa.png */; };
+		6BDA7E5373F38D64B8BD878A75E37472 /* PLDAuthResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B3237266C893ACD3A9D0F6B64BD0D9 /* PLDAuthResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C288DC543074460EC664B6667FA220C /* PLDLongTailInstitution.h in Headers */ = {isa = PBXBuildFile; fileRef = F276DB94DCF3DE047DAE1F1A8878725E /* PLDLongTailInstitution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA74725442D54DA2B9F56B0192AD02A /* PLDLinkBankTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D93EB9A8A35CA35072F26388A5176 /* PLDLinkBankTileView.m */; };
+		6FE5DB06A97DFE0FEAA968964ABDC1EF /* wells@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 059C553BF4DD4FED732550ACACCF90E8 /* wells@2x.png */; };
+		700F4C9828A69D4507EE3A67EBF214C8 /* Plaid.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DE45C9C1E58902195A2BF46DAC6199 /* Plaid.m */; };
+		71F8474E241EDF0DDBD4593EA8F8F88C /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3133242839093580B1E5FA732E2DEF66 /* UIColor+Utilities.m */; };
+		721D83A4CCC72E7A25FEB2104B7BE946 /* svb.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F505A1936C3556E83D72BDB728942E /* svb.png */; };
+		730DA1B5034603186E41B3A2AFEDC462 /* PLDResourceBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF63BB915EEEE9BF033A8F1222FA8FD /* PLDResourceBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7384CB14CCCDD44831236D9788A73B33 /* PLDLinkBankMFAQuestionOrCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB230AC87668B281CB702100B83A109 /* PLDLinkBankMFAQuestionOrCodeView.m */; };
+		7400FCCD06629E3FE6EA04FDB40E71AD /* usaa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 611487D589FB40224BC8042A7035C9D1 /* usaa@2x.png */; };
+		744E3DC59869CE767582A6634AAB341B /* UIColor+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7467111D85836BBED976969342E63E79 /* UIColor+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7527464589C023661EF464829C9DF025 /* chase@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE71A0C8A9FC083E535668D950519659 /* chase@3x.png */; };
+		7B7BF3A91D9A3AC6612BA27410B76FC9 /* PLDLinkBankSelectionSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED7C90CC82D0C932455876F3DF8D255 /* PLDLinkBankSelectionSearchResultsViewController.m */; };
+		7B913B22B9589F8016FB3B7674A9D7BF /* PLDLinkBankMFASelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8B5F873BFE6AC871D5115E8224EF9E /* PLDLinkBankMFASelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3A08D0649E617F5F2E62B9DEA20E07 /* PLDLinkBankMFASelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC097B19240C9A628CC41FE8162AFE5 /* PLDLinkBankMFASelectionView.m */; };
+		7E68905194BAD29C8BA4A40B79CD3018 /* PLDLinkBankMFAChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C6590BA4F09FFFB673BF10E25C6843 /* PLDLinkBankMFAChoiceViewController.m */; };
+		81573D8CBACFD45CC4E5AA7FB1E2F9E8 /* NSString+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0DA53FF81FFCBF59CC278A1570269 /* NSString+Localization.m */; };
+		82C5BDDC6EE7912BD7F30DBED6FC0C53 /* PLDLinkBankMFAContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7ECDD7D875B57788AABE08BF444BA2 /* PLDLinkBankMFAContainerViewController.m */; };
+		84DF21361EE04225AC8E078D8161693F /* PLDAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B336FFF8311005BCE4F7E8D76BC2C /* PLDAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85440DB0E052F8EC8F0D8207471E63AC /* PLDLinkAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB191F5E12204349AE14C235465F3D8 /* PLDLinkAuthentication.m */; };
+		85DDE14559F9ED4DB1EC9C73E1407461 /* NSString+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA03FC908E5391149F4EC96B934F6A5 /* NSString+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897AB131F20B744AB26974224DDA9237 /* PLDAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4157AA69954F1DC5DBD192479ECC4D /* PLDAuthResponse.m */; };
+		8D8FAC1EB1C16E68C717B8A8C77A3015 /* PLDConnectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B0041AB2529FCAC3C1E12A95F914F1 /* PLDConnectResponse.m */; };
+		8E1E8CB179D88136BEEE33980DB83FBF /* PLDNetworkApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CD1E53B9CC28E7F418BCD37A4C2571 /* PLDNetworkApi.m */; };
+		9020E6481A11555C48EB151576B643DB /* svb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E74EBA45570EAB06759FD082274ED79 /* svb@3x.png */; };
+		909955F1BC5B985E29C3D6BEC371A0A5 /* PLDAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDE9AF7646C2F9F599064E2B977308E /* PLDAuthentication.m */; };
+		913A6C99891E040CBBB080CF7EE59A9F /* PLDLinkAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = B740C966AD73D87BCE86997F95C3AF1A /* PLDLinkAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		931ABCC562B61F5109BA5EA068DF599E /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B469F63C0CE52DAF499B8EC871D9FF0D /* amex@2x.png */; };
+		93D556760C41271DE13327C5F530FC81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF97082ECEC5D0FB9BF774702E4FBC09 /* Foundation.framework */; };
+		948EDD94F5B136CDC4D6E4E569D42E60 /* PLDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B062D477FCADFB3A618080E13FF3E78 /* PLDResources.bundle */; };
+		95D046AC3CCDC904C29763C06548CF91 /* plaid-ios-link-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 711D72C859AA832B58054E026B2FD5B1 /* plaid-ios-link-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965EBEFC7376D11E6CD2F6B3085A0B28 /* PLDLinkBankSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E97195F79E034C756E39399542CCEFE1 /* PLDLinkBankSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96912D3E748EEA001B516E89176A4251 /* PLDLinkSelectionToLoginAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 033BE723221C230C02E908862E258930 /* PLDLinkSelectionToLoginAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FEDFF985E9C193C9B14E8307F7E04D /* PLDLinkBankMFAQuestionOrCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF79BF430839930C2DC1EE5E715363AA /* PLDLinkBankMFAQuestionOrCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B345C864F4882A58934B31AF9E38515 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8903591E09793AE84E6BD95FBA75C78A /* Localizable.strings */; };
+		9CB12C864EFC5FE767D3630CB0878EE1 /* nfcu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D9F0A1D93E0A0D80D2AA6890DC19A8 /* nfcu@2x.png */; };
+		9FF5444DA98D8B774F9DF6B24BB4B27B /* usaa.png in Resources */ = {isa = PBXBuildFile; fileRef = D94F00AB92500F4B0A4FAA7682A1FCFA /* usaa.png */; };
+		A0C3A2A7781EC37815E0E4B80D90D750 /* PLDLinkBankMFASelectionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2BC614C37C4BEE6E7DC560F3E159A /* PLDLinkBankMFASelectionsView.m */; };
+		A1C4F538691FF978BB906A1117DCA302 /* wells.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9CE89FDBDA124470EB99930F0F735F /* wells.png */; };
+		A21A3DC666C1A92D885FBB81CB830AA9 /* svb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7078A7657EE8EE8AFFFB251E45E27371 /* svb@2x.png */; };
+		A3E53015EF5B3A96CD2F6831D114479C /* pnc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF03FA41E3CD53065B30057A2EDE1B2 /* pnc.png */; };
+		A9F3C12401FCAD8AC83B56BB9DBB1A3C /* us@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8FD26514E1AD45AD4DCDE4DCF0446 /* us@3x.png */; };
+		AEC0C2436CFE6BC66471880D0EDF3155 /* PLDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B4618B3B7146DA4B6FC0BD0FCADA5B /* PLDAccount.m */; };
+		AF83542E018174D13C6DD1215F687783 /* usaa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044C333971C86CB15ACF84C8F0EE957A /* usaa@3x.png */; };
+		B5CDC3AC95A53201FED2DEF3A2C3D78A /* plaid-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255743672E8405E7851B3BAA548ADBC /* plaid-ios-sdk-dummy.m */; };
+		B5FBA5DA672A5889E9E92C690AD1B6A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF97082ECEC5D0FB9BF774702E4FBC09 /* Foundation.framework */; };
+		B870F4135E3F264C529F0886D54AEC97 /* nfcu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFE9A241B433BCFC124959B15D2BE0 /* nfcu@3x.png */; };
+		B9B43F3FA86EA4F18E4EB9E834E360AF /* fidelity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47FF2977DD52329F60712A57305C77A7 /* fidelity@3x.png */; };
+		BA302F52A59E8CBD081D5C9C2D669335 /* Plaid.h in Headers */ = {isa = PBXBuildFile; fileRef = CA24352199A2559C2EB2738BB8B390E0 /* Plaid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA09B497CEA76043B05BB6A870CCB0A /* capone360@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E9821AEE27CE369923854B80195695 /* capone360@3x.png */; };
+		BD30F7470B1B1647AD09C54232C03CBF /* PLDLinkBankMFAQuestionOrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01DD2CDFB6FCD8169F92860EC8F932 /* PLDLinkBankMFAQuestionOrCodeViewController.m */; };
+		C05EBDF0663DF377B175BDBE16D2073F /* PLDLinkBankMFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D220915ED39A2DDFB7D14AE710905110 /* PLDLinkBankMFAViewController.m */; };
+		C177F69F8E547DB94ECB568F5A47C5A2 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD491B669404C6BF4BDBE0B3E9028B48 /* Resources.bundle */; };
+		C17F0EF3FE2D1D7E5A054EC34B60E731 /* PLDLinkBankMFAChoiceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A1C3A01AFDA14E58C4D79A706E5AD9 /* PLDLinkBankMFAChoiceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4906449B069BB95DD07F4ED042EA94F /* PLDLinkBankMFAQuestionOrCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4569F9FD6F6560C117847907AFE7158 /* PLDLinkBankMFAQuestionOrCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C681F90E97E6BF931E2CAC7A78DB27A0 /* Pods-PlaidIntegration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE47B43ADC755B921AE4C0B2EF545CA /* Pods-PlaidIntegration-dummy.m */; };
+		C6B3EB9496403A05D0F5D9C50C9F770E /* PLDLinkBankMFASelectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F6EBB212A4BAB172946B46D3D4155 /* PLDLinkBankMFASelectionsViewController.m */; };
+		C7414FA114A0FDFFC58E68B45283D1AF /* fidelity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D04105B8903C009ABF9BD9E284D85F /* fidelity@2x.png */; };
+		C82184058B8BFAD751C1597672F37177 /* PLDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 08824B4768A2F9DE864B1CA3A24CAFE4 /* PLDAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85F3431241C048BBA09473B034E9832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF97082ECEC5D0FB9BF774702E4FBC09 /* Foundation.framework */; };
+		CA5DB62A689D98C3F061A0ABE1370FD4 /* suntrust.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5602C5E287076937E715CDA8F3A60C /* suntrust.png */; };
+		D24968E590A2694D7998A22291937C83 /* suntrust@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B61AE1BC9CEB0D1B2BAB249BCEECB1 /* suntrust@2x.png */; };
+		D361FDA2B7405E4513C3698974BBE9DA /* us@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB85F4C6008456743530485770105E8 /* us@2x.png */; };
+		D3DE406C8641428A9EE032BD5EA3410A /* PLDLinkError.m in Sources */ = {isa = PBXBuildFile; fileRef = E272481DE8B23C03582415B52481DE0C /* PLDLinkError.m */; };
+		D4C88833CCE0F4B9884AFF4D526031E2 /* pnc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CC9F8BA9DF27D4B506BFEF17E5ED0B /* pnc@3x.png */; };
+		D5602EF68EC96EF8255D41DA56A10F1D /* PLDLinkBankMFASelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17C6FD2759FE9C40C151A8F49C1D66 /* PLDLinkBankMFASelectionViewController.m */; };
+		D697DAEA646FE370AF51079FD0370F41 /* PLDLinkBankMFAChoiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BFC1FDD04C822EECDB9723530B28E6 /* PLDLinkBankMFAChoiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA02FA5DB2A1B4E851E2DB0A22074601 /* capone360@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 725146428C50402A3BB977597D16891F /* capone360@2x.png */; };
+		DDB3D4136EF5B8730842715863BE915B /* chase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D771220F72D7A057CEF761543CFEB9D /* chase@2x.png */; };
+		E6DE560597C641732DFF3495417502CB /* capone360.png in Resources */ = {isa = PBXBuildFile; fileRef = 160FC40616299A962EB721947216C50A /* capone360.png */; };
+		E7842F62735C46371E2F1DEE383A80E6 /* PLDLinkBankMFALoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF015B807768863468CECE33AD5301 /* PLDLinkBankMFALoginView.m */; };
+		E80F110C27A6B0684DDED702E33D6A43 /* PLDLinkBankMFASelectionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB334DDADE7EF665AD04B8D1DD579958 /* PLDLinkBankMFASelectionsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AA7665DF0C54F965E7830662594B04 /* td@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB23B3CD4297A834D9D00AB6A2377CB /* td@3x.png */; };
+		EB7D8408A1A4D32F441A5EF15D8BFCA3 /* PLDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C937C5A0B9F85AF1B7B6D821B329DC3 /* PLDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC46004B0276C5DA2D7F0DD20FAF045E /* pnc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC78CA1D965DC0D314DDAECEDC6C49 /* pnc@2x.png */; };
+		EE07A2D5BCD9AE5C39B8BAB48582A515 /* PLDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C8E27A096BF0DFE1FC4AB9E21157C1 /* PLDCategory.m */; };
+		EE46A0BCA13987BBE957D348A557CB46 /* plaid-ios-link-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD15230C13B18A479B2D52DC833809 /* plaid-ios-link-dummy.m */; };
+		F047A475FE2D5C3F30220A80CB9E81E8 /* schwab.png in Resources */ = {isa = PBXBuildFile; fileRef = D7523D8500CAF5CF4B3FA101E077D99F /* schwab.png */; };
+		F04EA1ACDE8A3740451FCB47B1A5C707 /* NSDictionary+Null.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A5BE1DFA58A73D483E18F2588EE7CA /* NSDictionary+Null.m */; };
+		F409B9712C988192E8C4FE790A39894D /* NSString+PlaidLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = C18486A9ABB13F3B66CD8E16D56D18E6 /* NSString+PlaidLocalization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F544B38FC5951243DE0DC59F17F77291 /* PLDInstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267FDA22F8311F3EB34EB8EB9282410 /* PLDInstitution.m */; };
+		FCA38FDBA0D9DBB458FDF80DC2417F83 /* PLDLinkBankMFAContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA5162525C8F0785E30DA44D8FB1012 /* PLDLinkBankMFAContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF02BC39A353085CE782737AD1309F0E /* PLDLinkStyledButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 096AE5D5D2EDB026872A1FA57E47172B /* PLDLinkStyledButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF10ED40BF491BC91F71A5538515E690 /* PLDNetworkApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 688C2D15858BDDCA79295DB88AC46197 /* PLDNetworkApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF462BF946F394EE860D4D0ACE965B2F /* UIColor+PLDLinkUIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0077502A6388AF6301C17E6F5F6EC38E /* UIColor+PLDLinkUIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA86050D2A63F9FB8DF0637B1AF6594 /* schwab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41551E93218E4E3465051D808EC6C959 /* schwab@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10ABF984CCD8B693B2A20BA317A4C0D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A06AE06B89E553A8C6646F39D27675;
+			remoteInfo = Plaid;
+		};
+		212D9ADF41F8B75C49F8E4F027A22CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37577BCA5281010AAAF324DABE0CCA14;
+			remoteInfo = "plaid-ios-link";
+		};
+		69A15147332E2FBC8A8F74070287AEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2A26C2616F4A32EE5D278B55A717CF;
+			remoteInfo = "plaid-ios-link-Resources";
+		};
+		6DE3D16212879F9ECBB85D2D0957F71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2042B5DB2C25E1074193B18B1720546D;
+			remoteInfo = "plaid-ios-sdk";
+		};
+		BFE740A22EB10EC68751A754EA1F28B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2042B5DB2C25E1074193B18B1720546D;
+			remoteInfo = "plaid-ios-sdk";
+		};
+		C830E793F8D082601110F77A6B59D967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9222B54D07FBDDFB2525A4634DA53F8D;
+			remoteInfo = "plaid-ios-sdk-PLDResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0063D4724B662010056E0617C87A5550 /* NSString+PlaidLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PlaidLocalization.m"; path = "Plaid/Classes/Private/NSString+PlaidLocalization.m"; sourceTree = "<group>"; };
+		0077502A6388AF6301C17E6F5F6EC38E /* UIColor+PLDLinkUIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+PLDLinkUIColor.h"; path = "PlaidLink/Classes/UIColor+PLDLinkUIColor.h"; sourceTree = "<group>"; };
+		018D619960B8D2412BD85A8EAD6B7DE4 /* PLDLinkStyledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkStyledTextField.h; path = PlaidLink/Classes/PLDLinkStyledTextField.h; sourceTree = "<group>"; };
+		02EAE1BE5D8DE23483B33F67F76A091A /* Pods-PlaidIntegration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlaidIntegration-acknowledgements.plist"; sourceTree = "<group>"; };
+		033BE723221C230C02E908862E258930 /* PLDLinkSelectionToLoginAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkSelectionToLoginAnimator.h; path = PlaidLink/Classes/PLDLinkSelectionToLoginAnimator.h; sourceTree = "<group>"; };
+		044C333971C86CB15ACF84C8F0EE957A /* usaa@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "usaa@3x.png"; path = "PlaidLink/Resources/Images/usaa@3x.png"; sourceTree = "<group>"; };
+		0512BDB27CD36EDD774224F0D0C034F8 /* ResourceBundle-Resources-plaid-ios-link-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-plaid-ios-link-Info.plist"; sourceTree = "<group>"; };
+		059C553BF4DD4FED732550ACACCF90E8 /* wells@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wells@2x.png"; path = "PlaidLink/Resources/Images/wells@2x.png"; sourceTree = "<group>"; };
+		086216F928EBAC9661418DA9BD6FFA83 /* PLDLinkBankMFALoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFALoginView.h; path = PlaidLink/Classes/PLDLinkBankMFALoginView.h; sourceTree = "<group>"; };
+		08824B4768A2F9DE864B1CA3A24CAFE4 /* PLDAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDAuthentication.h; path = Plaid/Classes/PLDAuthentication.h; sourceTree = "<group>"; };
+		096AE5D5D2EDB026872A1FA57E47172B /* PLDLinkStyledButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkStyledButton.h; path = PlaidLink/Classes/PLDLinkStyledButton.h; sourceTree = "<group>"; };
+		0CA03FC908E5391149F4EC96B934F6A5 /* NSString+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Localization.h"; path = "PlaidLink/Classes/NSString+Localization.h"; sourceTree = "<group>"; };
+		0FB04A97BD8EACAFFEA002601ADC5289 /* amex@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amex@3x.png"; path = "PlaidLink/Resources/Images/amex@3x.png"; sourceTree = "<group>"; };
+		11C89FA483328D6147F8CA62D7E1F43A /* PLDLinkBankSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankSelectionView.m; path = PlaidLink/Classes/PLDLinkBankSelectionView.m; sourceTree = "<group>"; };
+		1267FDA22F8311F3EB34EB8EB9282410 /* PLDInstitution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDInstitution.m; path = Plaid/Classes/PLDInstitution.m; sourceTree = "<group>"; };
+		12CC9F8BA9DF27D4B506BFEF17E5ED0B /* pnc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pnc@3x.png"; path = "PlaidLink/Resources/Images/pnc@3x.png"; sourceTree = "<group>"; };
+		157FD1D1FD59FD8E839A28B46B985F97 /* PLDLinkBankMFAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAViewController.h; path = PlaidLink/Classes/PLDLinkBankMFAViewController.h; sourceTree = "<group>"; };
+		160FC40616299A962EB721947216C50A /* capone360.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = capone360.png; path = PlaidLink/Resources/Images/capone360.png; sourceTree = "<group>"; };
+		16E14E1D2CF8DCC1F06C6C90DAD701D8 /* Pods-PlaidIntegration-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlaidIntegration-Info.plist"; sourceTree = "<group>"; };
+		18580002E3A975B23F5F90771977EE80 /* PLDLinkBankMFASelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFASelectionView.h; path = PlaidLink/Classes/PLDLinkBankMFASelectionView.h; sourceTree = "<group>"; };
+		18FDA1A5D1BCE314F66850F44D994371 /* PLDLinkBankSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankSelectionViewController.m; path = PlaidLink/Classes/PLDLinkBankSelectionViewController.m; sourceTree = "<group>"; };
+		1A8FAA9430B8480E0C22730E716C4F1B /* PLDLinkError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkError.h; path = Plaid/Classes/PLDLinkError.h; sourceTree = "<group>"; };
+		1B062D477FCADFB3A618080E13FF3E78 /* PLDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PLDResources.bundle; path = "plaid-ios-sdk-PLDResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB191F5E12204349AE14C235465F3D8 /* PLDLinkAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkAuthentication.m; path = Plaid/Classes/PLDLinkAuthentication.m; sourceTree = "<group>"; };
+		2255743672E8405E7851B3BAA548ADBC /* plaid-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "plaid-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		23AF015B807768863468CECE33AD5301 /* PLDLinkBankMFALoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFALoginView.m; path = PlaidLink/Classes/PLDLinkBankMFALoginView.m; sourceTree = "<group>"; };
+		25B3237266C893ACD3A9D0F6B64BD0D9 /* PLDAuthResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDAuthResponse.h; path = Plaid/Classes/PLDAuthResponse.h; sourceTree = "<group>"; };
+		264DC7976DCDF5DB89B51CFD055C46AB /* plaid-ios-link-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "plaid-ios-link-Info.plist"; sourceTree = "<group>"; };
+		26CABC5EB2178F842DE907769F6DF08E /* Pods-PlaidIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaidIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		289559CD0AB1C0F97397DADB4257BDB8 /* PLDLinkResourceBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkResourceBundle.h; path = PlaidLink/Classes/PLDLinkResourceBundle.h; sourceTree = "<group>"; };
+		293C58BAF6A1E333F65F0C585FCC7AE1 /* plaid-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plaid-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		29A1C3A01AFDA14E58C4D79A706E5AD9 /* PLDLinkBankMFAChoiceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAChoiceViewController.h; path = PlaidLink/Classes/PLDLinkBankMFAChoiceViewController.h; sourceTree = "<group>"; };
+		2A7ECDD7D875B57788AABE08BF444BA2 /* PLDLinkBankMFAContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAContainerViewController.m; path = PlaidLink/Classes/PLDLinkBankMFAContainerViewController.m; sourceTree = "<group>"; };
+		2B6FABA51A56DF3FB5C14CDF57C13B4A /* plaid-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plaid-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		30C8E27A096BF0DFE1FC4AB9E21157C1 /* PLDCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDCategory.m; path = Plaid/Classes/PLDCategory.m; sourceTree = "<group>"; };
+		3133242839093580B1E5FA732E2DEF66 /* UIColor+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Utilities.m"; path = "Plaid/Classes/UIColor+Utilities.m"; sourceTree = "<group>"; };
+		32C6130C4376D892B47CD7DDE775442B /* PLDLinkSelectionToLoginAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkSelectionToLoginAnimator.m; path = PlaidLink/Classes/PLDLinkSelectionToLoginAnimator.m; sourceTree = "<group>"; };
+		3614970785B45B0CF39EFCE6462B6D60 /* Pods-PlaidIntegration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlaidIntegration-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37F4AE0FEBE3C36851B9035FC3F0A640 /* Pods-PlaidIntegration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlaidIntegration.modulemap"; sourceTree = "<group>"; };
+		390B96BB603D93CE647B343B07CC0122 /* PLDLinkBankMFAExplainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAExplainerView.m; path = PlaidLink/Classes/PLDLinkBankMFAExplainerView.m; sourceTree = "<group>"; };
+		3AF63BB915EEEE9BF033A8F1222FA8FD /* PLDResourceBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDResourceBundle.h; path = Plaid/Classes/Private/PLDResourceBundle.h; sourceTree = "<group>"; };
+		3B52E293D29C7FF53552AB9C40A26954 /* PLDLinkBankMFALoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFALoginViewController.h; path = PlaidLink/Classes/PLDLinkBankMFALoginViewController.h; sourceTree = "<group>"; };
+		3BCC5DD24599F39029014120560A53C2 /* td@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "td@2x.png"; path = "PlaidLink/Resources/Images/td@2x.png"; sourceTree = "<group>"; };
+		3CDD15230C13B18A479B2D52DC833809 /* plaid-ios-link-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "plaid-ios-link-dummy.m"; sourceTree = "<group>"; };
+		3E9CE89FDBDA124470EB99930F0F735F /* wells.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = wells.png; path = PlaidLink/Resources/Images/wells.png; sourceTree = "<group>"; };
+		3FE61D2E7A7E9B659F13DA38AFFC02F6 /* plaid_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = plaid_ios_sdk.framework; path = "plaid-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41551E93218E4E3465051D808EC6C959 /* schwab@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "schwab@2x.png"; path = "PlaidLink/Resources/Images/schwab@2x.png"; sourceTree = "<group>"; };
+		41CD7D26282364488DE8BB6BD170FE9B /* fidelity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fidelity.png; path = PlaidLink/Resources/Images/fidelity.png; sourceTree = "<group>"; };
+		441770DAFB03C619C5B6CC75123EC357 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = PlaidLink/Resources/Strings/Localizable.strings; sourceTree = "<group>"; };
+		44511FEE33FCAE986E597F0D55B782F1 /* Pods-PlaidIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaidIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		44751E32B976BCB9564C8B96A5005C00 /* amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amex.png; path = PlaidLink/Resources/Images/amex.png; sourceTree = "<group>"; };
+		478A7A31FBC804A6766FFCDB43FEAD99 /* Plaid-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Plaid-Swift.h"; path = "Plaid/Classes/Plaid-Swift.h"; sourceTree = "<group>"; };
+		47FF2977DD52329F60712A57305C77A7 /* fidelity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fidelity@3x.png"; path = "PlaidLink/Resources/Images/fidelity@3x.png"; sourceTree = "<group>"; };
+		4AB6270EBE2C699DDEF1C7AF841DA5BC /* Pods-PlaidIntegration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlaidIntegration-umbrella.h"; sourceTree = "<group>"; };
+		4CF03FA41E3CD53065B30057A2EDE1B2 /* pnc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pnc.png; path = PlaidLink/Resources/Images/pnc.png; sourceTree = "<group>"; };
+		4CF2BC614C37C4BEE6E7DC560F3E159A /* PLDLinkBankMFASelectionsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFASelectionsView.m; path = PlaidLink/Classes/PLDLinkBankMFASelectionsView.m; sourceTree = "<group>"; };
+		4D771220F72D7A057CEF761543CFEB9D /* chase@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chase@2x.png"; path = "PlaidLink/Resources/Images/chase@2x.png"; sourceTree = "<group>"; };
+		4DA46CF295D1EFEAEDC0C0205A386F3C /* PLDLinkBankMFAContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAContainerViewController.h; path = PlaidLink/Classes/PLDLinkBankMFAContainerViewController.h; sourceTree = "<group>"; };
+		4FD8FD26514E1AD45AD4DCDE4DCF0446 /* us@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "us@3x.png"; path = "PlaidLink/Resources/Images/us@3x.png"; sourceTree = "<group>"; };
+		5249E563E211A3961C67911275B9EAC5 /* schwab@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "schwab@3x.png"; path = "PlaidLink/Resources/Images/schwab@3x.png"; sourceTree = "<group>"; };
+		56D07F7925FEB3E1410A3F31FA497298 /* PLDLinkBankMFAChoiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAChoiceView.m; path = PlaidLink/Classes/PLDLinkBankMFAChoiceView.m; sourceTree = "<group>"; };
+		57B58876030D33EFEB928E8FB8103C2C /* PLDLinkBankMFABaseStepView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFABaseStepView.h; path = PlaidLink/Classes/PLDLinkBankMFABaseStepView.h; sourceTree = "<group>"; };
+		5812AE5F6C97858E2CE24C3117D09D06 /* PLDTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDTransaction.m; path = Plaid/Classes/PLDTransaction.m; sourceTree = "<group>"; };
+		584175910EF9F8BA60C1CC2EE5338BEE /* nfcu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nfcu.png; path = PlaidLink/Resources/Images/nfcu.png; sourceTree = "<group>"; };
+		58FB862E597CCDE43F3E55231D2589CC /* PLDConnectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDConnectResponse.h; path = Plaid/Classes/PLDConnectResponse.h; sourceTree = "<group>"; };
+		5B17C6FD2759FE9C40C151A8F49C1D66 /* PLDLinkBankMFASelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFASelectionViewController.m; path = PlaidLink/Classes/PLDLinkBankMFASelectionViewController.m; sourceTree = "<group>"; };
+		5C325001D4A0FB107555BD05C025B328 /* PLDCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDCategory.h; path = Plaid/Classes/PLDCategory.h; sourceTree = "<group>"; };
+		5D8D93EB9A8A35CA35072F26388A5176 /* PLDLinkBankTileView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankTileView.m; path = PlaidLink/Classes/PLDLinkBankTileView.m; sourceTree = "<group>"; };
+		5ECFE9A241B433BCFC124959B15D2BE0 /* nfcu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nfcu@3x.png"; path = "PlaidLink/Resources/Images/nfcu@3x.png"; sourceTree = "<group>"; };
+		5F71D705AADA969267F11A07424D68AF /* Plaid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Plaid.xcconfig; sourceTree = "<group>"; };
+		611487D589FB40224BC8042A7035C9D1 /* usaa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "usaa@2x.png"; path = "PlaidLink/Resources/Images/usaa@2x.png"; sourceTree = "<group>"; };
+		61D9F0A1D93E0A0D80D2AA6890DC19A8 /* nfcu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nfcu@2x.png"; path = "PlaidLink/Resources/Images/nfcu@2x.png"; sourceTree = "<group>"; };
+		62B0041AB2529FCAC3C1E12A95F914F1 /* PLDConnectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDConnectResponse.m; path = Plaid/Classes/PLDConnectResponse.m; sourceTree = "<group>"; };
+		65BFC1FDD04C822EECDB9723530B28E6 /* PLDLinkBankMFAChoiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAChoiceView.h; path = PlaidLink/Classes/PLDLinkBankMFAChoiceView.h; sourceTree = "<group>"; };
+		688C2D15858BDDCA79295DB88AC46197 /* PLDNetworkApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDNetworkApi.h; path = Plaid/Classes/PLDNetworkApi.h; sourceTree = "<group>"; };
+		6C937C5A0B9F85AF1B7B6D821B329DC3 /* PLDDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDDefines.h; path = Plaid/Classes/PLDDefines.h; sourceTree = "<group>"; };
+		7031042BB3668F2B4B2236A00F484C94 /* td.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = td.png; path = PlaidLink/Resources/Images/td.png; sourceTree = "<group>"; };
+		704AF251DC5E521D77612A73EC639FFA /* plaid_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = plaid_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7078A7657EE8EE8AFFFB251E45E27371 /* svb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "svb@2x.png"; path = "PlaidLink/Resources/Images/svb@2x.png"; sourceTree = "<group>"; };
+		70DE45C9C1E58902195A2BF46DAC6199 /* Plaid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Plaid.m; path = Plaid/Classes/Plaid.m; sourceTree = "<group>"; };
+		711D72C859AA832B58054E026B2FD5B1 /* plaid-ios-link-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plaid-ios-link-umbrella.h"; sourceTree = "<group>"; };
+		725146428C50402A3BB977597D16891F /* capone360@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "capone360@2x.png"; path = "PlaidLink/Resources/Images/capone360@2x.png"; sourceTree = "<group>"; };
+		738BD71E9894EFC1A647C66DD4B06C49 /* wells@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wells@3x.png"; path = "PlaidLink/Resources/Images/wells@3x.png"; sourceTree = "<group>"; };
+		7467111D85836BBED976969342E63E79 /* UIColor+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Utilities.h"; path = "Plaid/Classes/UIColor+Utilities.h"; sourceTree = "<group>"; };
+		758EF2BA0CC759EF61BA1E56CF8BAD2C /* plaid-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "plaid-ios-sdk.modulemap"; sourceTree = "<group>"; };
+		759F6EBB212A4BAB172946B46D3D4155 /* PLDLinkBankMFASelectionsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFASelectionsViewController.m; path = PlaidLink/Classes/PLDLinkBankMFASelectionsViewController.m; sourceTree = "<group>"; };
+		7D454370D9E146A610AABFD5D7E9F768 /* chase.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = chase.png; path = PlaidLink/Resources/Images/chase.png; sourceTree = "<group>"; };
+		7DC097B19240C9A628CC41FE8162AFE5 /* PLDLinkBankMFASelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFASelectionView.m; path = PlaidLink/Classes/PLDLinkBankMFASelectionView.m; sourceTree = "<group>"; };
+		7E0E6723D354FD732FBC033234499A50 /* Pods-PlaidIntegration-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlaidIntegration-frameworks.sh"; sourceTree = "<group>"; };
+		8345301E8B804A7EEF759E2E4B868755 /* suntrust@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "suntrust@3x.png"; path = "PlaidLink/Resources/Images/suntrust@3x.png"; sourceTree = "<group>"; };
+		837A651D51EFCE53B8D96FA7242F7970 /* PLDLinkBankMFAExplainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAExplainerView.h; path = PlaidLink/Classes/PLDLinkBankMFAExplainerView.h; sourceTree = "<group>"; };
+		87D04105B8903C009ABF9BD9E284D85F /* fidelity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fidelity@2x.png"; path = "PlaidLink/Resources/Images/fidelity@2x.png"; sourceTree = "<group>"; };
+		8903591E09793AE84E6BD95FBA75C78A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Plaid/Resources/Strings/Localizable.strings; sourceTree = "<group>"; };
+		8B1AF8EBF99208CF70777B39DE7A233E /* bofa@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bofa@3x.png"; path = "PlaidLink/Resources/Images/bofa@3x.png"; sourceTree = "<group>"; };
+		8BBC78CA1D965DC0D314DDAECEDC6C49 /* pnc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pnc@2x.png"; path = "PlaidLink/Resources/Images/pnc@2x.png"; sourceTree = "<group>"; };
+		8CB0DA53FF81FFCBF59CC278A1570269 /* NSString+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Localization.m"; path = "PlaidLink/Classes/NSString+Localization.m"; sourceTree = "<group>"; };
+		8D4157AA69954F1DC5DBD192479ECC4D /* PLDAuthResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDAuthResponse.m; path = Plaid/Classes/PLDAuthResponse.m; sourceTree = "<group>"; };
+		8E74EBA45570EAB06759FD082274ED79 /* svb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "svb@3x.png"; path = "PlaidLink/Resources/Images/svb@3x.png"; sourceTree = "<group>"; };
+		935B24A981B7AEF4A9431991DEECBCB9 /* PLDResourceBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDResourceBundle.m; path = Plaid/Classes/Private/PLDResourceBundle.m; sourceTree = "<group>"; };
+		95AE1838D77E4FD7243ED679B5F3FEF1 /* plaid-ios-link.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "plaid-ios-link.modulemap"; sourceTree = "<group>"; };
+		98C6590BA4F09FFFB673BF10E25C6843 /* PLDLinkBankMFAChoiceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAChoiceViewController.m; path = PlaidLink/Classes/PLDLinkBankMFAChoiceViewController.m; sourceTree = "<group>"; };
+		9CE47B43ADC755B921AE4C0B2EF545CA /* Pods-PlaidIntegration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlaidIntegration-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EFBB73E74CF02D78F4C0FA066E3325 /* Pods_PlaidIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlaidIntegration.framework; path = "Pods-PlaidIntegration.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A406EB579D8E81E960F9B67A3819F19E /* PLDLinkBankMFABaseStepView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFABaseStepView.m; path = PlaidLink/Classes/PLDLinkBankMFABaseStepView.m; sourceTree = "<group>"; };
+		A6B61AE1BC9CEB0D1B2BAB249BCEECB1 /* suntrust@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "suntrust@2x.png"; path = "PlaidLink/Resources/Images/suntrust@2x.png"; sourceTree = "<group>"; };
+		A742F04805766C5F01F52A141A8C27D1 /* PLDLinkBankMFALoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFALoginViewController.m; path = PlaidLink/Classes/PLDLinkBankMFALoginViewController.m; sourceTree = "<group>"; };
+		A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "plaid-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		A842C666B59F854AF82C8E53F50A413E /* plaid-ios-link-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plaid-ios-link-prefix.pch"; sourceTree = "<group>"; };
+		A8CD1E53B9CC28E7F418BCD37A4C2571 /* PLDNetworkApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDNetworkApi.m; path = Plaid/Classes/PLDNetworkApi.m; sourceTree = "<group>"; };
+		A9443640E5F9CF7D4E029284B4812D37 /* PLDLinkStyledButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkStyledButton.m; path = PlaidLink/Classes/PLDLinkStyledButton.m; sourceTree = "<group>"; };
+		AAE8CA3AC4E01DFD89078C1D5A153C42 /* PLDLinkBankTileView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankTileView.h; path = PlaidLink/Classes/PLDLinkBankTileView.h; sourceTree = "<group>"; };
+		AAF1B0F987C9B540CBD36840C9590867 /* citi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "citi@3x.png"; path = "PlaidLink/Resources/Images/citi@3x.png"; sourceTree = "<group>"; };
+		AB334DDADE7EF665AD04B8D1DD579958 /* PLDLinkBankMFASelectionsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFASelectionsViewController.h; path = PlaidLink/Classes/PLDLinkBankMFASelectionsViewController.h; sourceTree = "<group>"; };
+		ACDE9AF7646C2F9F599064E2B977308E /* PLDAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDAuthentication.m; path = Plaid/Classes/PLDAuthentication.m; sourceTree = "<group>"; };
+		AD491B669404C6BF4BDBE0B3E9028B48 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Resources.bundle; path = "plaid-ios-link-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED7C90CC82D0C932455876F3DF8D255 /* PLDLinkBankSelectionSearchResultsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankSelectionSearchResultsViewController.m; path = PlaidLink/Classes/PLDLinkBankSelectionSearchResultsViewController.m; sourceTree = "<group>"; };
+		B1B6B103D1505685A0308AE71BBABBE3 /* bofa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bofa.png; path = PlaidLink/Resources/Images/bofa.png; sourceTree = "<group>"; };
+		B1F505A1936C3556E83D72BDB728942E /* svb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = svb.png; path = PlaidLink/Resources/Images/svb.png; sourceTree = "<group>"; };
+		B469F63C0CE52DAF499B8EC871D9FF0D /* amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amex@2x.png"; path = "PlaidLink/Resources/Images/amex@2x.png"; sourceTree = "<group>"; };
+		B49E129BC242B77AD60459556D346F8C /* bofa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bofa@2x.png"; path = "PlaidLink/Resources/Images/bofa@2x.png"; sourceTree = "<group>"; };
+		B6F16F344DA2849412D1ECF919189D40 /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ios/LinkKit.framework; sourceTree = "<group>"; };
+		B740C966AD73D87BCE86997F95C3AF1A /* PLDLinkAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkAuthentication.h; path = Plaid/Classes/PLDLinkAuthentication.h; sourceTree = "<group>"; };
+		BA46095C5B4C994D8F53C5B1603A49CC /* PLDLinkBankSelectionSearchResultsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankSelectionSearchResultsViewController.h; path = PlaidLink/Classes/PLDLinkBankSelectionSearchResultsViewController.h; sourceTree = "<group>"; };
+		BB8B5F873BFE6AC871D5115E8224EF9E /* PLDLinkBankMFASelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFASelectionViewController.h; path = PlaidLink/Classes/PLDLinkBankMFASelectionViewController.h; sourceTree = "<group>"; };
+		BDB85F4C6008456743530485770105E8 /* us@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "us@2x.png"; path = "PlaidLink/Resources/Images/us@2x.png"; sourceTree = "<group>"; };
+		C18486A9ABB13F3B66CD8E16D56D18E6 /* NSString+PlaidLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PlaidLocalization.h"; path = "Plaid/Classes/Private/NSString+PlaidLocalization.h"; sourceTree = "<group>"; };
+		C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "plaid-ios-link.xcconfig"; sourceTree = "<group>"; };
+		C1F52E2C677D9041BAC81D298BA8D661 /* PLDLinkNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkNavigationViewController.h; path = PlaidLink/Classes/PLDLinkNavigationViewController.h; sourceTree = "<group>"; };
+		C6B4618B3B7146DA4B6FC0BD0FCADA5B /* PLDAccount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDAccount.m; path = Plaid/Classes/PLDAccount.m; sourceTree = "<group>"; };
+		CA24352199A2559C2EB2738BB8B390E0 /* Plaid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Plaid.h; path = Plaid/Classes/Plaid.h; sourceTree = "<group>"; };
+		CD5602C5E287076937E715CDA8F3A60C /* suntrust.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = suntrust.png; path = PlaidLink/Resources/Images/suntrust.png; sourceTree = "<group>"; };
+		CED9725A1C6C0F81765CC9DA5FFE3D7E /* us.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = us.png; path = PlaidLink/Resources/Images/us.png; sourceTree = "<group>"; };
+		CF79BF430839930C2DC1EE5E715363AA /* PLDLinkBankMFAQuestionOrCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAQuestionOrCodeView.h; path = PlaidLink/Classes/PLDLinkBankMFAQuestionOrCodeView.h; sourceTree = "<group>"; };
+		CF97082ECEC5D0FB9BF774702E4FBC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D220915ED39A2DDFB7D14AE710905110 /* PLDLinkBankMFAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAViewController.m; path = PlaidLink/Classes/PLDLinkBankMFAViewController.m; sourceTree = "<group>"; };
+		D2FB71917379FBC9AEFE21AD5048EA33 /* plaid_ios_link.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = plaid_ios_link.framework; path = "plaid-ios-link.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7523D8500CAF5CF4B3FA101E077D99F /* schwab.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = schwab.png; path = PlaidLink/Resources/Images/schwab.png; sourceTree = "<group>"; };
+		D87383F6694AF80C2E91A3594ABA6F19 /* ResourceBundle-PLDResources-plaid-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PLDResources-plaid-ios-sdk-Info.plist"; sourceTree = "<group>"; };
+		D941A2CF3D561BDFC719057EDB64B1AA /* citi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = citi.png; path = PlaidLink/Resources/Images/citi.png; sourceTree = "<group>"; };
+		D94F00AB92500F4B0A4FAA7682A1FCFA /* usaa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = usaa.png; path = PlaidLink/Resources/Images/usaa.png; sourceTree = "<group>"; };
+		D9A5BE1DFA58A73D483E18F2588EE7CA /* NSDictionary+Null.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Null.m"; path = "Plaid/Classes/NSDictionary+Null.m"; sourceTree = "<group>"; };
+		DBA5162525C8F0785E30DA44D8FB1012 /* PLDLinkBankMFAContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAContainerView.h; path = PlaidLink/Classes/PLDLinkBankMFAContainerView.h; sourceTree = "<group>"; };
+		DC7C7C0AE0FFBFDFDD10EE2E67AAD31B /* NSDictionary+Null.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Null.h"; path = "Plaid/Classes/NSDictionary+Null.h"; sourceTree = "<group>"; };
+		DD01DD2CDFB6FCD8169F92860EC8F932 /* PLDLinkBankMFAQuestionOrCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAQuestionOrCodeViewController.m; path = PlaidLink/Classes/PLDLinkBankMFAQuestionOrCodeViewController.m; sourceTree = "<group>"; };
+		E272481DE8B23C03582415B52481DE0C /* PLDLinkError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkError.m; path = Plaid/Classes/PLDLinkError.m; sourceTree = "<group>"; };
+		E2E15C2F087C16EC44E8316FE27EF5BA /* citi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "citi@2x.png"; path = "PlaidLink/Resources/Images/citi@2x.png"; sourceTree = "<group>"; };
+		E3FE9372269082BB1FE195251B84AC05 /* PLDLinkBankMFAContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAContainerView.m; path = PlaidLink/Classes/PLDLinkBankMFAContainerView.m; sourceTree = "<group>"; };
+		E888BB9AA7CF2AAE5B4285EB248EEF3B /* PLDLinkNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkNavigationViewController.m; path = PlaidLink/Classes/PLDLinkNavigationViewController.m; sourceTree = "<group>"; };
+		E8FAA5042C61471BF70DEB0A51E2A6EE /* UIColor+PLDLinkUIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+PLDLinkUIColor.m"; path = "PlaidLink/Classes/UIColor+PLDLinkUIColor.m"; sourceTree = "<group>"; };
+		E97195F79E034C756E39399542CCEFE1 /* PLDLinkBankSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankSelectionView.h; path = PlaidLink/Classes/PLDLinkBankSelectionView.h; sourceTree = "<group>"; };
+		E9F7C9A9FD9CBC5353F2E9DB19AB2628 /* PLDInstitution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDInstitution.h; path = Plaid/Classes/PLDInstitution.h; sourceTree = "<group>"; };
+		EA881237AEF2935F7A5968AA038650C6 /* PLDLongTailInstitution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLongTailInstitution.m; path = Plaid/Classes/PLDLongTailInstitution.m; sourceTree = "<group>"; };
+		EB19497AB7D818C64DC0B9521D52F93A /* PLDLinkResourceBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkResourceBundle.m; path = PlaidLink/Classes/PLDLinkResourceBundle.m; sourceTree = "<group>"; };
+		ECB23B3CD4297A834D9D00AB6A2377CB /* td@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "td@3x.png"; path = "PlaidLink/Resources/Images/td@3x.png"; sourceTree = "<group>"; };
+		EE71A0C8A9FC083E535668D950519659 /* chase@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chase@3x.png"; path = "PlaidLink/Resources/Images/chase@3x.png"; sourceTree = "<group>"; };
+		F276DB94DCF3DE047DAE1F1A8878725E /* PLDLongTailInstitution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLongTailInstitution.h; path = Plaid/Classes/PLDLongTailInstitution.h; sourceTree = "<group>"; };
+		F4569F9FD6F6560C117847907AFE7158 /* PLDLinkBankMFAQuestionOrCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFAQuestionOrCodeViewController.h; path = PlaidLink/Classes/PLDLinkBankMFAQuestionOrCodeViewController.h; sourceTree = "<group>"; };
+		F4E9821AEE27CE369923854B80195695 /* capone360@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "capone360@3x.png"; path = "PlaidLink/Resources/Images/capone360@3x.png"; sourceTree = "<group>"; };
+		F6440C43CF5D1C8043351E65760E926F /* PLDTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDTransaction.h; path = Plaid/Classes/PLDTransaction.h; sourceTree = "<group>"; };
+		F75F9007F41E99FE2CB89C5117D9DD82 /* PLDLinkBankMFASelectionsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankMFASelectionsView.h; path = PlaidLink/Classes/PLDLinkBankMFASelectionsView.h; sourceTree = "<group>"; };
+		F9131DB9207AB540F0124D3241C87711 /* PLDLinkStyledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkStyledTextField.m; path = PlaidLink/Classes/PLDLinkStyledTextField.m; sourceTree = "<group>"; };
+		F96EEE7075B128E9EB21EF6A4A3FB5F5 /* plaid-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "plaid-ios-sdk-Info.plist"; sourceTree = "<group>"; };
+		FBB230AC87668B281CB702100B83A109 /* PLDLinkBankMFAQuestionOrCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLDLinkBankMFAQuestionOrCodeView.m; path = PlaidLink/Classes/PLDLinkBankMFAQuestionOrCodeView.m; sourceTree = "<group>"; };
+		FC3545E9A1E7E9F4BD63E27F39BC7266 /* PLDLinkBankSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDLinkBankSelectionViewController.h; path = PlaidLink/Classes/PLDLinkBankSelectionViewController.h; sourceTree = "<group>"; };
+		FE6B336FFF8311005BCE4F7E8D76BC2C /* PLDAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLDAccount.h; path = Plaid/Classes/PLDAccount.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF5E41F48BA75325731759AF66B9CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EE5D738BCFE8E04B704316827CD8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D556760C41271DE13327C5F530FC81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1C54AEA082E4F680BC16637F91BC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FBA5DA672A5889E9E92C690AD1B6A6 /* Foundation.framework in Frameworks */,
+				086EE9CD77F365C9F4A1CE24D4F37680 /* plaid_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC844FFE1596F4073AB64C46C11E6539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF445D5F44446F850A4DC83C22F2A886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85F3431241C048BBA09473B034E9832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04407F6EA1D3C3F2C1BD8C1164971A8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8903591E09793AE84E6BD95FBA75C78A /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11426510D708D949B67870658BA7FAEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A6CFAE84CCCBFB0748A76CCD02A4D1 /* Plaid */,
+				99BAB943E9D6210B44CE50E6A1CA13B0 /* plaid-ios-link */,
+				252F179901B02F7CA733DBF518D0CD47 /* plaid-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		244792D89F1CCCD2DC5C7A91001281D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2FB71917379FBC9AEFE21AD5048EA33 /* plaid_ios_link.framework */,
+				3FE61D2E7A7E9B659F13DA38AFFC02F6 /* plaid_ios_sdk.framework */,
+				1B062D477FCADFB3A618080E13FF3E78 /* PLDResources.bundle */,
+				A1EFBB73E74CF02D78F4C0FA066E3325 /* Pods_PlaidIntegration.framework */,
+				AD491B669404C6BF4BDBE0B3E9028B48 /* Resources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252F179901B02F7CA733DBF518D0CD47 /* plaid-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C7C0AE0FFBFDFDD10EE2E67AAD31B /* NSDictionary+Null.h */,
+				D9A5BE1DFA58A73D483E18F2588EE7CA /* NSDictionary+Null.m */,
+				C18486A9ABB13F3B66CD8E16D56D18E6 /* NSString+PlaidLocalization.h */,
+				0063D4724B662010056E0617C87A5550 /* NSString+PlaidLocalization.m */,
+				CA24352199A2559C2EB2738BB8B390E0 /* Plaid.h */,
+				70DE45C9C1E58902195A2BF46DAC6199 /* Plaid.m */,
+				478A7A31FBC804A6766FFCDB43FEAD99 /* Plaid-Swift.h */,
+				FE6B336FFF8311005BCE4F7E8D76BC2C /* PLDAccount.h */,
+				C6B4618B3B7146DA4B6FC0BD0FCADA5B /* PLDAccount.m */,
+				08824B4768A2F9DE864B1CA3A24CAFE4 /* PLDAuthentication.h */,
+				ACDE9AF7646C2F9F599064E2B977308E /* PLDAuthentication.m */,
+				25B3237266C893ACD3A9D0F6B64BD0D9 /* PLDAuthResponse.h */,
+				8D4157AA69954F1DC5DBD192479ECC4D /* PLDAuthResponse.m */,
+				5C325001D4A0FB107555BD05C025B328 /* PLDCategory.h */,
+				30C8E27A096BF0DFE1FC4AB9E21157C1 /* PLDCategory.m */,
+				58FB862E597CCDE43F3E55231D2589CC /* PLDConnectResponse.h */,
+				62B0041AB2529FCAC3C1E12A95F914F1 /* PLDConnectResponse.m */,
+				6C937C5A0B9F85AF1B7B6D821B329DC3 /* PLDDefines.h */,
+				E9F7C9A9FD9CBC5353F2E9DB19AB2628 /* PLDInstitution.h */,
+				1267FDA22F8311F3EB34EB8EB9282410 /* PLDInstitution.m */,
+				B740C966AD73D87BCE86997F95C3AF1A /* PLDLinkAuthentication.h */,
+				1DB191F5E12204349AE14C235465F3D8 /* PLDLinkAuthentication.m */,
+				1A8FAA9430B8480E0C22730E716C4F1B /* PLDLinkError.h */,
+				E272481DE8B23C03582415B52481DE0C /* PLDLinkError.m */,
+				F276DB94DCF3DE047DAE1F1A8878725E /* PLDLongTailInstitution.h */,
+				EA881237AEF2935F7A5968AA038650C6 /* PLDLongTailInstitution.m */,
+				688C2D15858BDDCA79295DB88AC46197 /* PLDNetworkApi.h */,
+				A8CD1E53B9CC28E7F418BCD37A4C2571 /* PLDNetworkApi.m */,
+				3AF63BB915EEEE9BF033A8F1222FA8FD /* PLDResourceBundle.h */,
+				935B24A981B7AEF4A9431991DEECBCB9 /* PLDResourceBundle.m */,
+				F6440C43CF5D1C8043351E65760E926F /* PLDTransaction.h */,
+				5812AE5F6C97858E2CE24C3117D09D06 /* PLDTransaction.m */,
+				7467111D85836BBED976969342E63E79 /* UIColor+Utilities.h */,
+				3133242839093580B1E5FA732E2DEF66 /* UIColor+Utilities.m */,
+				04407F6EA1D3C3F2C1BD8C1164971A8A /* Resources */,
+				827C0297407117CCD145181123DF8F7B /* Support Files */,
+			);
+			name = "plaid-ios-sdk";
+			path = "plaid-ios-sdk";
+			sourceTree = "<group>";
+		};
+		2BC6CD019853118AE64E6CD57C1F0BDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AE1838D77E4FD7243ED679B5F3FEF1 /* plaid-ios-link.modulemap */,
+				C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */,
+				3CDD15230C13B18A479B2D52DC833809 /* plaid-ios-link-dummy.m */,
+				264DC7976DCDF5DB89B51CFD055C46AB /* plaid-ios-link-Info.plist */,
+				A842C666B59F854AF82C8E53F50A413E /* plaid-ios-link-prefix.pch */,
+				711D72C859AA832B58054E026B2FD5B1 /* plaid-ios-link-umbrella.h */,
+				0512BDB27CD36EDD774224F0D0C034F8 /* ResourceBundle-Resources-plaid-ios-link-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/plaid-ios-link";
+			sourceTree = "<group>";
+		};
+		33DAD07E1E0C430D9015FEFFD3C9C291 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF97082ECEC5D0FB9BF774702E4FBC09 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5329FC313D8B03AE477A05900084FDD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97D59AAE885D326E2100B49E6A11F9C /* Pods-PlaidIntegration */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77A6CFAE84CCCBFB0748A76CCD02A4D1 /* Plaid */ = {
+			isa = PBXGroup;
+			children = (
+				7884BF481D754593BCAF888A3EC1AE46 /* Frameworks */,
+				FFA8EFC675C0DB027F3207A1D850EC85 /* Support Files */,
+			);
+			name = Plaid;
+			path = Plaid;
+			sourceTree = "<group>";
+		};
+		7884BF481D754593BCAF888A3EC1AE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F16F344DA2849412D1ECF919189D40 /* LinkKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		827C0297407117CCD145181123DF8F7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				758EF2BA0CC759EF61BA1E56CF8BAD2C /* plaid-ios-sdk.modulemap */,
+				A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */,
+				2255743672E8405E7851B3BAA548ADBC /* plaid-ios-sdk-dummy.m */,
+				F96EEE7075B128E9EB21EF6A4A3FB5F5 /* plaid-ios-sdk-Info.plist */,
+				293C58BAF6A1E333F65F0C585FCC7AE1 /* plaid-ios-sdk-prefix.pch */,
+				2B6FABA51A56DF3FB5C14CDF57C13B4A /* plaid-ios-sdk-umbrella.h */,
+				D87383F6694AF80C2E91A3594ABA6F19 /* ResourceBundle-PLDResources-plaid-ios-sdk-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/plaid-ios-sdk";
+			sourceTree = "<group>";
+		};
+		99BAB943E9D6210B44CE50E6A1CA13B0 /* plaid-ios-link */ = {
+			isa = PBXGroup;
+			children = (
+				0CA03FC908E5391149F4EC96B934F6A5 /* NSString+Localization.h */,
+				8CB0DA53FF81FFCBF59CC278A1570269 /* NSString+Localization.m */,
+				57B58876030D33EFEB928E8FB8103C2C /* PLDLinkBankMFABaseStepView.h */,
+				A406EB579D8E81E960F9B67A3819F19E /* PLDLinkBankMFABaseStepView.m */,
+				65BFC1FDD04C822EECDB9723530B28E6 /* PLDLinkBankMFAChoiceView.h */,
+				56D07F7925FEB3E1410A3F31FA497298 /* PLDLinkBankMFAChoiceView.m */,
+				29A1C3A01AFDA14E58C4D79A706E5AD9 /* PLDLinkBankMFAChoiceViewController.h */,
+				98C6590BA4F09FFFB673BF10E25C6843 /* PLDLinkBankMFAChoiceViewController.m */,
+				DBA5162525C8F0785E30DA44D8FB1012 /* PLDLinkBankMFAContainerView.h */,
+				E3FE9372269082BB1FE195251B84AC05 /* PLDLinkBankMFAContainerView.m */,
+				4DA46CF295D1EFEAEDC0C0205A386F3C /* PLDLinkBankMFAContainerViewController.h */,
+				2A7ECDD7D875B57788AABE08BF444BA2 /* PLDLinkBankMFAContainerViewController.m */,
+				837A651D51EFCE53B8D96FA7242F7970 /* PLDLinkBankMFAExplainerView.h */,
+				390B96BB603D93CE647B343B07CC0122 /* PLDLinkBankMFAExplainerView.m */,
+				086216F928EBAC9661418DA9BD6FFA83 /* PLDLinkBankMFALoginView.h */,
+				23AF015B807768863468CECE33AD5301 /* PLDLinkBankMFALoginView.m */,
+				3B52E293D29C7FF53552AB9C40A26954 /* PLDLinkBankMFALoginViewController.h */,
+				A742F04805766C5F01F52A141A8C27D1 /* PLDLinkBankMFALoginViewController.m */,
+				CF79BF430839930C2DC1EE5E715363AA /* PLDLinkBankMFAQuestionOrCodeView.h */,
+				FBB230AC87668B281CB702100B83A109 /* PLDLinkBankMFAQuestionOrCodeView.m */,
+				F4569F9FD6F6560C117847907AFE7158 /* PLDLinkBankMFAQuestionOrCodeViewController.h */,
+				DD01DD2CDFB6FCD8169F92860EC8F932 /* PLDLinkBankMFAQuestionOrCodeViewController.m */,
+				F75F9007F41E99FE2CB89C5117D9DD82 /* PLDLinkBankMFASelectionsView.h */,
+				4CF2BC614C37C4BEE6E7DC560F3E159A /* PLDLinkBankMFASelectionsView.m */,
+				AB334DDADE7EF665AD04B8D1DD579958 /* PLDLinkBankMFASelectionsViewController.h */,
+				759F6EBB212A4BAB172946B46D3D4155 /* PLDLinkBankMFASelectionsViewController.m */,
+				18580002E3A975B23F5F90771977EE80 /* PLDLinkBankMFASelectionView.h */,
+				7DC097B19240C9A628CC41FE8162AFE5 /* PLDLinkBankMFASelectionView.m */,
+				BB8B5F873BFE6AC871D5115E8224EF9E /* PLDLinkBankMFASelectionViewController.h */,
+				5B17C6FD2759FE9C40C151A8F49C1D66 /* PLDLinkBankMFASelectionViewController.m */,
+				157FD1D1FD59FD8E839A28B46B985F97 /* PLDLinkBankMFAViewController.h */,
+				D220915ED39A2DDFB7D14AE710905110 /* PLDLinkBankMFAViewController.m */,
+				BA46095C5B4C994D8F53C5B1603A49CC /* PLDLinkBankSelectionSearchResultsViewController.h */,
+				AED7C90CC82D0C932455876F3DF8D255 /* PLDLinkBankSelectionSearchResultsViewController.m */,
+				E97195F79E034C756E39399542CCEFE1 /* PLDLinkBankSelectionView.h */,
+				11C89FA483328D6147F8CA62D7E1F43A /* PLDLinkBankSelectionView.m */,
+				FC3545E9A1E7E9F4BD63E27F39BC7266 /* PLDLinkBankSelectionViewController.h */,
+				18FDA1A5D1BCE314F66850F44D994371 /* PLDLinkBankSelectionViewController.m */,
+				AAE8CA3AC4E01DFD89078C1D5A153C42 /* PLDLinkBankTileView.h */,
+				5D8D93EB9A8A35CA35072F26388A5176 /* PLDLinkBankTileView.m */,
+				C1F52E2C677D9041BAC81D298BA8D661 /* PLDLinkNavigationViewController.h */,
+				E888BB9AA7CF2AAE5B4285EB248EEF3B /* PLDLinkNavigationViewController.m */,
+				289559CD0AB1C0F97397DADB4257BDB8 /* PLDLinkResourceBundle.h */,
+				EB19497AB7D818C64DC0B9521D52F93A /* PLDLinkResourceBundle.m */,
+				033BE723221C230C02E908862E258930 /* PLDLinkSelectionToLoginAnimator.h */,
+				32C6130C4376D892B47CD7DDE775442B /* PLDLinkSelectionToLoginAnimator.m */,
+				096AE5D5D2EDB026872A1FA57E47172B /* PLDLinkStyledButton.h */,
+				A9443640E5F9CF7D4E029284B4812D37 /* PLDLinkStyledButton.m */,
+				018D619960B8D2412BD85A8EAD6B7DE4 /* PLDLinkStyledTextField.h */,
+				F9131DB9207AB540F0124D3241C87711 /* PLDLinkStyledTextField.m */,
+				0077502A6388AF6301C17E6F5F6EC38E /* UIColor+PLDLinkUIColor.h */,
+				E8FAA5042C61471BF70DEB0A51E2A6EE /* UIColor+PLDLinkUIColor.m */,
+				DC2D2BD21F6DC223A8007E8269B0DFDC /* Resources */,
+				2BC6CD019853118AE64E6CD57C1F0BDD /* Support Files */,
+			);
+			name = "plaid-ios-link";
+			path = "plaid-ios-link";
+			sourceTree = "<group>";
+		};
+		A97D59AAE885D326E2100B49E6A11F9C /* Pods-PlaidIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				37F4AE0FEBE3C36851B9035FC3F0A640 /* Pods-PlaidIntegration.modulemap */,
+				3614970785B45B0CF39EFCE6462B6D60 /* Pods-PlaidIntegration-acknowledgements.markdown */,
+				02EAE1BE5D8DE23483B33F67F76A091A /* Pods-PlaidIntegration-acknowledgements.plist */,
+				9CE47B43ADC755B921AE4C0B2EF545CA /* Pods-PlaidIntegration-dummy.m */,
+				7E0E6723D354FD732FBC033234499A50 /* Pods-PlaidIntegration-frameworks.sh */,
+				16E14E1D2CF8DCC1F06C6C90DAD701D8 /* Pods-PlaidIntegration-Info.plist */,
+				4AB6270EBE2C699DDEF1C7AF841DA5BC /* Pods-PlaidIntegration-umbrella.h */,
+				26CABC5EB2178F842DE907769F6DF08E /* Pods-PlaidIntegration.debug.xcconfig */,
+				44511FEE33FCAE986E597F0D55B782F1 /* Pods-PlaidIntegration.release.xcconfig */,
+			);
+			name = "Pods-PlaidIntegration";
+			path = "Target Support Files/Pods-PlaidIntegration";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E8444D29CA512DE084DD3878C3D43E05 /* Frameworks */,
+				11426510D708D949B67870658BA7FAEF /* Pods */,
+				244792D89F1CCCD2DC5C7A91001281D5 /* Products */,
+				5329FC313D8B03AE477A05900084FDD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2D2BD21F6DC223A8007E8269B0DFDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44751E32B976BCB9564C8B96A5005C00 /* amex.png */,
+				B469F63C0CE52DAF499B8EC871D9FF0D /* amex@2x.png */,
+				0FB04A97BD8EACAFFEA002601ADC5289 /* amex@3x.png */,
+				B1B6B103D1505685A0308AE71BBABBE3 /* bofa.png */,
+				B49E129BC242B77AD60459556D346F8C /* bofa@2x.png */,
+				8B1AF8EBF99208CF70777B39DE7A233E /* bofa@3x.png */,
+				160FC40616299A962EB721947216C50A /* capone360.png */,
+				725146428C50402A3BB977597D16891F /* capone360@2x.png */,
+				F4E9821AEE27CE369923854B80195695 /* capone360@3x.png */,
+				7D454370D9E146A610AABFD5D7E9F768 /* chase.png */,
+				4D771220F72D7A057CEF761543CFEB9D /* chase@2x.png */,
+				EE71A0C8A9FC083E535668D950519659 /* chase@3x.png */,
+				D941A2CF3D561BDFC719057EDB64B1AA /* citi.png */,
+				E2E15C2F087C16EC44E8316FE27EF5BA /* citi@2x.png */,
+				AAF1B0F987C9B540CBD36840C9590867 /* citi@3x.png */,
+				41CD7D26282364488DE8BB6BD170FE9B /* fidelity.png */,
+				87D04105B8903C009ABF9BD9E284D85F /* fidelity@2x.png */,
+				47FF2977DD52329F60712A57305C77A7 /* fidelity@3x.png */,
+				441770DAFB03C619C5B6CC75123EC357 /* Localizable.strings */,
+				584175910EF9F8BA60C1CC2EE5338BEE /* nfcu.png */,
+				61D9F0A1D93E0A0D80D2AA6890DC19A8 /* nfcu@2x.png */,
+				5ECFE9A241B433BCFC124959B15D2BE0 /* nfcu@3x.png */,
+				4CF03FA41E3CD53065B30057A2EDE1B2 /* pnc.png */,
+				8BBC78CA1D965DC0D314DDAECEDC6C49 /* pnc@2x.png */,
+				12CC9F8BA9DF27D4B506BFEF17E5ED0B /* pnc@3x.png */,
+				D7523D8500CAF5CF4B3FA101E077D99F /* schwab.png */,
+				41551E93218E4E3465051D808EC6C959 /* schwab@2x.png */,
+				5249E563E211A3961C67911275B9EAC5 /* schwab@3x.png */,
+				CD5602C5E287076937E715CDA8F3A60C /* suntrust.png */,
+				A6B61AE1BC9CEB0D1B2BAB249BCEECB1 /* suntrust@2x.png */,
+				8345301E8B804A7EEF759E2E4B868755 /* suntrust@3x.png */,
+				B1F505A1936C3556E83D72BDB728942E /* svb.png */,
+				7078A7657EE8EE8AFFFB251E45E27371 /* svb@2x.png */,
+				8E74EBA45570EAB06759FD082274ED79 /* svb@3x.png */,
+				7031042BB3668F2B4B2236A00F484C94 /* td.png */,
+				3BCC5DD24599F39029014120560A53C2 /* td@2x.png */,
+				ECB23B3CD4297A834D9D00AB6A2377CB /* td@3x.png */,
+				CED9725A1C6C0F81765CC9DA5FFE3D7E /* us.png */,
+				BDB85F4C6008456743530485770105E8 /* us@2x.png */,
+				4FD8FD26514E1AD45AD4DCDE4DCF0446 /* us@3x.png */,
+				D94F00AB92500F4B0A4FAA7682A1FCFA /* usaa.png */,
+				611487D589FB40224BC8042A7035C9D1 /* usaa@2x.png */,
+				044C333971C86CB15ACF84C8F0EE957A /* usaa@3x.png */,
+				3E9CE89FDBDA124470EB99930F0F735F /* wells.png */,
+				059C553BF4DD4FED732550ACACCF90E8 /* wells@2x.png */,
+				738BD71E9894EFC1A647C66DD4B06C49 /* wells@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8444D29CA512DE084DD3878C3D43E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704AF251DC5E521D77612A73EC639FFA /* plaid_ios_sdk.framework */,
+				33DAD07E1E0C430D9015FEFFD3C9C291 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA8EFC675C0DB027F3207A1D850EC85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F71D705AADA969267F11A07424D68AF /* Plaid.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Plaid";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D3EF6287E8E1C0C70A9C2D1D48A0852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B1E3C41223B1B0CA5BB5918ABEB75 /* NSDictionary+Null.h in Headers */,
+				F409B9712C988192E8C4FE790A39894D /* NSString+PlaidLocalization.h in Headers */,
+				3298ED9634DCF075250D36B0C5D78398 /* plaid-ios-sdk-umbrella.h in Headers */,
+				00643DAEB621943BB53AECE6190F7D65 /* Plaid-Swift.h in Headers */,
+				BA302F52A59E8CBD081D5C9C2D669335 /* Plaid.h in Headers */,
+				84DF21361EE04225AC8E078D8161693F /* PLDAccount.h in Headers */,
+				C82184058B8BFAD751C1597672F37177 /* PLDAuthentication.h in Headers */,
+				6BDA7E5373F38D64B8BD878A75E37472 /* PLDAuthResponse.h in Headers */,
+				025A567317752074CEA929A23B8AA4EA /* PLDCategory.h in Headers */,
+				5D968225567DCFAB5BEF902D449E39A7 /* PLDConnectResponse.h in Headers */,
+				EB7D8408A1A4D32F441A5EF15D8BFCA3 /* PLDDefines.h in Headers */,
+				66DE57B8F0A13318E0D5DBA3345C5C96 /* PLDInstitution.h in Headers */,
+				913A6C99891E040CBBB080CF7EE59A9F /* PLDLinkAuthentication.h in Headers */,
+				5EA4CE4890F220F60C46DC0BB264A524 /* PLDLinkError.h in Headers */,
+				6C288DC543074460EC664B6667FA220C /* PLDLongTailInstitution.h in Headers */,
+				FF10ED40BF491BC91F71A5538515E690 /* PLDNetworkApi.h in Headers */,
+				730DA1B5034603186E41B3A2AFEDC462 /* PLDResourceBundle.h in Headers */,
+				5D80CCA4B97C0174C9B747DD4A7C1DCE /* PLDTransaction.h in Headers */,
+				744E3DC59869CE767582A6634AAB341B /* UIColor+Utilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D388E30038D27C43F7F4D1455B40A564 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DDE14559F9ED4DB1EC9C73E1407461 /* NSString+Localization.h in Headers */,
+				95D046AC3CCDC904C29763C06548CF91 /* plaid-ios-link-umbrella.h in Headers */,
+				04FDB21E17E5768F6D8EB828289D6CB8 /* PLDLinkBankMFABaseStepView.h in Headers */,
+				D697DAEA646FE370AF51079FD0370F41 /* PLDLinkBankMFAChoiceView.h in Headers */,
+				C17F0EF3FE2D1D7E5A054EC34B60E731 /* PLDLinkBankMFAChoiceViewController.h in Headers */,
+				FCA38FDBA0D9DBB458FDF80DC2417F83 /* PLDLinkBankMFAContainerView.h in Headers */,
+				28FBA6292DCB53DC9F6CB8FEC564E107 /* PLDLinkBankMFAContainerViewController.h in Headers */,
+				13A5C595AE728297D5B8BCE01F278764 /* PLDLinkBankMFAExplainerView.h in Headers */,
+				226828291BEBCC5C11C4490691882415 /* PLDLinkBankMFALoginView.h in Headers */,
+				5E8481E527A990DF4CB7669E3F1333AB /* PLDLinkBankMFALoginViewController.h in Headers */,
+				99FEDFF985E9C193C9B14E8307F7E04D /* PLDLinkBankMFAQuestionOrCodeView.h in Headers */,
+				C4906449B069BB95DD07F4ED042EA94F /* PLDLinkBankMFAQuestionOrCodeViewController.h in Headers */,
+				3FB44CD30AF1BFA727763CDC25600D79 /* PLDLinkBankMFASelectionsView.h in Headers */,
+				E80F110C27A6B0684DDED702E33D6A43 /* PLDLinkBankMFASelectionsViewController.h in Headers */,
+				3463C081B2ED23795F517EE090146FDA /* PLDLinkBankMFASelectionView.h in Headers */,
+				7B913B22B9589F8016FB3B7674A9D7BF /* PLDLinkBankMFASelectionViewController.h in Headers */,
+				0F63D3E9163BA42ACDB5CF59A20CC0E9 /* PLDLinkBankMFAViewController.h in Headers */,
+				30820017C992FB34C0A0B77C503C2871 /* PLDLinkBankSelectionSearchResultsViewController.h in Headers */,
+				965EBEFC7376D11E6CD2F6B3085A0B28 /* PLDLinkBankSelectionView.h in Headers */,
+				5770179378A95E09DD0A67167435FA07 /* PLDLinkBankSelectionViewController.h in Headers */,
+				138B5F838FCA19A87CD1843189437095 /* PLDLinkBankTileView.h in Headers */,
+				28BC9A98915103F8B5361D87E817B4F0 /* PLDLinkNavigationViewController.h in Headers */,
+				4532DD3B2336802846D8A91006C741BF /* PLDLinkResourceBundle.h in Headers */,
+				96912D3E748EEA001B516E89176A4251 /* PLDLinkSelectionToLoginAnimator.h in Headers */,
+				FF02BC39A353085CE782737AD1309F0E /* PLDLinkStyledButton.h in Headers */,
+				0615A76D8DF2302490FA216FE3E09AE1 /* PLDLinkStyledTextField.h in Headers */,
+				FF462BF946F394EE860D4D0ACE965B2F /* UIColor+PLDLinkUIColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89CEA23838CEE625C77E36586C3F633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5C91E5E8030612CC0782227C6B5D4 /* Pods-PlaidIntegration-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2042B5DB2C25E1074193B18B1720546D /* plaid-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493015B2D9D1CAD8E271BC31C4107220 /* Build configuration list for PBXNativeTarget "plaid-ios-sdk" */;
+			buildPhases = (
+				1D3EF6287E8E1C0C70A9C2D1D48A0852 /* Headers */,
+				9C46CAD4B254DBDDB0C581E46BD43B2E /* Sources */,
+				86EE5D738BCFE8E04B704316827CD8BC /* Frameworks */,
+				3D4BABC2957F1659CAB9FD0D50C44177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE0BB56B029C426473289202E05A34D /* PBXTargetDependency */,
+			);
+			name = "plaid-ios-sdk";
+			productName = "plaid-ios-sdk";
+			productReference = 3FE61D2E7A7E9B659F13DA38AFFC02F6 /* plaid_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37577BCA5281010AAAF324DABE0CCA14 /* plaid-ios-link */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F35AF9B44513561FD67DBE7D144F879 /* Build configuration list for PBXNativeTarget "plaid-ios-link" */;
+			buildPhases = (
+				D388E30038D27C43F7F4D1455B40A564 /* Headers */,
+				94587F5F778ED00A4EB55075C0F89F64 /* Sources */,
+				BF1C54AEA082E4F680BC16637F91BC8D /* Frameworks */,
+				B6F3D736C119688FE74CEB94AE6A85A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE68A1848BB25CB4AFFF9A96E9B32EE /* PBXTargetDependency */,
+				5E4C52DB5F8B579E4C4906BA4D8AD15F /* PBXTargetDependency */,
+			);
+			name = "plaid-ios-link";
+			productName = "plaid-ios-link";
+			productReference = D2FB71917379FBC9AEFE21AD5048EA33 /* plaid_ios_link.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9222B54D07FBDDFB2525A4634DA53F8D /* plaid-ios-sdk-PLDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D806076C4B6DC75AEFC81AF944BEA39B /* Build configuration list for PBXNativeTarget "plaid-ios-sdk-PLDResources" */;
+			buildPhases = (
+				91892693E8822F13D11C5E0F70461C3C /* Sources */,
+				CC844FFE1596F4073AB64C46C11E6539 /* Frameworks */,
+				0282F17CD8239D271E12198C8C4EA570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plaid-ios-sdk-PLDResources";
+			productName = "plaid-ios-sdk-PLDResources";
+			productReference = 1B062D477FCADFB3A618080E13FF3E78 /* PLDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C7710832F9F3C357BA6699F0BD0A68DC /* Pods-PlaidIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023A18059B05C25B9AF27099DB0F9030 /* Build configuration list for PBXNativeTarget "Pods-PlaidIntegration" */;
+			buildPhases = (
+				F89CEA23838CEE625C77E36586C3F633 /* Headers */,
+				35A0510BC8A7E6F3DD8B932F58AC0711 /* Sources */,
+				FF445D5F44446F850A4DC83C22F2A886 /* Frameworks */,
+				0DE1597E700A68CA843035DB995525CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97942A69053481FFCCA299599868E142 /* PBXTargetDependency */,
+				9F1406DBF1AA398C2FD15B413F023390 /* PBXTargetDependency */,
+				5826DE3241175CF988808B4BD77D20E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlaidIntegration";
+			productName = "Pods-PlaidIntegration";
+			productReference = A1EFBB73E74CF02D78F4C0FA066E3325 /* Pods_PlaidIntegration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB2A26C2616F4A32EE5D278B55A717CF /* plaid-ios-link-Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A359AA91A6805FF975C2386F3DD780 /* Build configuration list for PBXNativeTarget "plaid-ios-link-Resources" */;
+			buildPhases = (
+				AD345A994F53DED4BFD36773BCA0C88F /* Sources */,
+				5FF5E41F48BA75325731759AF66B9CE7 /* Frameworks */,
+				EACED534A5AEA315E638CC9BAC41257A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plaid-ios-link-Resources";
+			productName = "plaid-ios-link-Resources";
+			productReference = AD491B669404C6BF4BDBE0B3E9028B48 /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 244792D89F1CCCD2DC5C7A91001281D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A06AE06B89E553A8C6646F39D27675 /* Plaid */,
+				37577BCA5281010AAAF324DABE0CCA14 /* plaid-ios-link */,
+				FB2A26C2616F4A32EE5D278B55A717CF /* plaid-ios-link-Resources */,
+				2042B5DB2C25E1074193B18B1720546D /* plaid-ios-sdk */,
+				9222B54D07FBDDFB2525A4634DA53F8D /* plaid-ios-sdk-PLDResources */,
+				C7710832F9F3C357BA6699F0BD0A68DC /* Pods-PlaidIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0282F17CD8239D271E12198C8C4EA570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B345C864F4882A58934B31AF9E38515 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE1597E700A68CA843035DB995525CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4BABC2957F1659CAB9FD0D50C44177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948EDD94F5B136CDC4D6E4E569D42E60 /* PLDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F3D736C119688FE74CEB94AE6A85A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C177F69F8E547DB94ECB568F5A47C5A2 /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACED534A5AEA315E638CC9BAC41257A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAE002E1C17DB7C753F74C3A29A98DD /* amex.png in Resources */,
+				931ABCC562B61F5109BA5EA068DF599E /* amex@2x.png in Resources */,
+				290B52CAD795526D8062AE0CE4B69F1D /* amex@3x.png in Resources */,
+				6A54F8A273764603DE496988BDA0EA5B /* bofa.png in Resources */,
+				655CA6078F7A9B2B0583D6815C561C75 /* bofa@2x.png in Resources */,
+				0094785E1793AB1A67196B1C9E448068 /* bofa@3x.png in Resources */,
+				E6DE560597C641732DFF3495417502CB /* capone360.png in Resources */,
+				DA02FA5DB2A1B4E851E2DB0A22074601 /* capone360@2x.png in Resources */,
+				BBA09B497CEA76043B05BB6A870CCB0A /* capone360@3x.png in Resources */,
+				31003E5D1B4925F2E0F6E041E1F852BF /* chase.png in Resources */,
+				DDB3D4136EF5B8730842715863BE915B /* chase@2x.png in Resources */,
+				7527464589C023661EF464829C9DF025 /* chase@3x.png in Resources */,
+				3F7B8935C329878A04EBB655E62C9452 /* citi.png in Resources */,
+				2807D50B7D0E41434062CE74FB2D1E73 /* citi@2x.png in Resources */,
+				1B6FD64E59BAEA3FE5BE56A5FB127D7D /* citi@3x.png in Resources */,
+				0F14FC902033A5E98E25C1A3052E4985 /* fidelity.png in Resources */,
+				C7414FA114A0FDFFC58E68B45283D1AF /* fidelity@2x.png in Resources */,
+				B9B43F3FA86EA4F18E4EB9E834E360AF /* fidelity@3x.png in Resources */,
+				2F5B9BAAC34DA490DCAF4CE76B2389ED /* Localizable.strings in Resources */,
+				4746103786998F1F0902FFBA61C70C2C /* nfcu.png in Resources */,
+				9CB12C864EFC5FE767D3630CB0878EE1 /* nfcu@2x.png in Resources */,
+				B870F4135E3F264C529F0886D54AEC97 /* nfcu@3x.png in Resources */,
+				A3E53015EF5B3A96CD2F6831D114479C /* pnc.png in Resources */,
+				EC46004B0276C5DA2D7F0DD20FAF045E /* pnc@2x.png in Resources */,
+				D4C88833CCE0F4B9884AFF4D526031E2 /* pnc@3x.png in Resources */,
+				F047A475FE2D5C3F30220A80CB9E81E8 /* schwab.png in Resources */,
+				FFA86050D2A63F9FB8DF0637B1AF6594 /* schwab@2x.png in Resources */,
+				1513C373D8D2521FE74AF3C538EBB774 /* schwab@3x.png in Resources */,
+				CA5DB62A689D98C3F061A0ABE1370FD4 /* suntrust.png in Resources */,
+				D24968E590A2694D7998A22291937C83 /* suntrust@2x.png in Resources */,
+				6703A79E2B29EB783B10FBB79A370C9B /* suntrust@3x.png in Resources */,
+				721D83A4CCC72E7A25FEB2104B7BE946 /* svb.png in Resources */,
+				A21A3DC666C1A92D885FBB81CB830AA9 /* svb@2x.png in Resources */,
+				9020E6481A11555C48EB151576B643DB /* svb@3x.png in Resources */,
+				3975B993B2D2667B34558804C5836F5E /* td.png in Resources */,
+				2F4E1430326ECF2FD9C63AEF78980EE3 /* td@2x.png in Resources */,
+				E9AA7665DF0C54F965E7830662594B04 /* td@3x.png in Resources */,
+				08E2C72CA27977E5E175ABAD815BE367 /* us.png in Resources */,
+				D361FDA2B7405E4513C3698974BBE9DA /* us@2x.png in Resources */,
+				A9F3C12401FCAD8AC83B56BB9DBB1A3C /* us@3x.png in Resources */,
+				9FF5444DA98D8B774F9DF6B24BB4B27B /* usaa.png in Resources */,
+				7400FCCD06629E3FE6EA04FDB40E71AD /* usaa@2x.png in Resources */,
+				AF83542E018174D13C6DD1215F687783 /* usaa@3x.png in Resources */,
+				A1C4F538691FF978BB906A1117DCA302 /* wells.png in Resources */,
+				6FE5DB06A97DFE0FEAA968964ABDC1EF /* wells@2x.png in Resources */,
+				596FA9543736683866C91DEAB449F80C /* wells@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35A0510BC8A7E6F3DD8B932F58AC0711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C681F90E97E6BF931E2CAC7A78DB27A0 /* Pods-PlaidIntegration-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91892693E8822F13D11C5E0F70461C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94587F5F778ED00A4EB55075C0F89F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81573D8CBACFD45CC4E5AA7FB1E2F9E8 /* NSString+Localization.m in Sources */,
+				EE46A0BCA13987BBE957D348A557CB46 /* plaid-ios-link-dummy.m in Sources */,
+				5BCF78E903EEC480077EA5367DC77D6C /* PLDLinkBankMFABaseStepView.m in Sources */,
+				37C4CF94235A8F03C2F2B789E5EE4F16 /* PLDLinkBankMFAChoiceView.m in Sources */,
+				7E68905194BAD29C8BA4A40B79CD3018 /* PLDLinkBankMFAChoiceViewController.m in Sources */,
+				4A4C2099717AE99FBEE742C55FDF6E6B /* PLDLinkBankMFAContainerView.m in Sources */,
+				82C5BDDC6EE7912BD7F30DBED6FC0C53 /* PLDLinkBankMFAContainerViewController.m in Sources */,
+				06B66702F9D21B666D2FF3F440E0FACF /* PLDLinkBankMFAExplainerView.m in Sources */,
+				E7842F62735C46371E2F1DEE383A80E6 /* PLDLinkBankMFALoginView.m in Sources */,
+				43F6A7FDF8EEA0B32DEF69406D628E87 /* PLDLinkBankMFALoginViewController.m in Sources */,
+				7384CB14CCCDD44831236D9788A73B33 /* PLDLinkBankMFAQuestionOrCodeView.m in Sources */,
+				BD30F7470B1B1647AD09C54232C03CBF /* PLDLinkBankMFAQuestionOrCodeViewController.m in Sources */,
+				A0C3A2A7781EC37815E0E4B80D90D750 /* PLDLinkBankMFASelectionsView.m in Sources */,
+				C6B3EB9496403A05D0F5D9C50C9F770E /* PLDLinkBankMFASelectionsViewController.m in Sources */,
+				7E3A08D0649E617F5F2E62B9DEA20E07 /* PLDLinkBankMFASelectionView.m in Sources */,
+				D5602EF68EC96EF8255D41DA56A10F1D /* PLDLinkBankMFASelectionViewController.m in Sources */,
+				C05EBDF0663DF377B175BDBE16D2073F /* PLDLinkBankMFAViewController.m in Sources */,
+				7B7BF3A91D9A3AC6612BA27410B76FC9 /* PLDLinkBankSelectionSearchResultsViewController.m in Sources */,
+				47F12EE4D2C23CCEAE7E209FC8F53431 /* PLDLinkBankSelectionView.m in Sources */,
+				3D9FA482E1D4BA7F03FA21A8424B888C /* PLDLinkBankSelectionViewController.m in Sources */,
+				6DA74725442D54DA2B9F56B0192AD02A /* PLDLinkBankTileView.m in Sources */,
+				2A57376CCD53558828973F2F0FBE0645 /* PLDLinkNavigationViewController.m in Sources */,
+				225412978E689108C63D74B3F6F55160 /* PLDLinkResourceBundle.m in Sources */,
+				2B1B5E5BBE5FB0CC5FACCD2E21C4AA28 /* PLDLinkSelectionToLoginAnimator.m in Sources */,
+				28EE21BEB35546BB173F7E29AC27735E /* PLDLinkStyledButton.m in Sources */,
+				472C71E3BDA8B73C50D5334473709DD9 /* PLDLinkStyledTextField.m in Sources */,
+				0FC056ACC68DDFDFC14E194FADF09CA8 /* UIColor+PLDLinkUIColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46CAD4B254DBDDB0C581E46BD43B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04EA1ACDE8A3740451FCB47B1A5C707 /* NSDictionary+Null.m in Sources */,
+				361A939DB91003A1177ECDC2AB5DFA4A /* NSString+PlaidLocalization.m in Sources */,
+				B5CDC3AC95A53201FED2DEF3A2C3D78A /* plaid-ios-sdk-dummy.m in Sources */,
+				700F4C9828A69D4507EE3A67EBF214C8 /* Plaid.m in Sources */,
+				AEC0C2436CFE6BC66471880D0EDF3155 /* PLDAccount.m in Sources */,
+				909955F1BC5B985E29C3D6BEC371A0A5 /* PLDAuthentication.m in Sources */,
+				897AB131F20B744AB26974224DDA9237 /* PLDAuthResponse.m in Sources */,
+				EE07A2D5BCD9AE5C39B8BAB48582A515 /* PLDCategory.m in Sources */,
+				8D8FAC1EB1C16E68C717B8A8C77A3015 /* PLDConnectResponse.m in Sources */,
+				F544B38FC5951243DE0DC59F17F77291 /* PLDInstitution.m in Sources */,
+				85440DB0E052F8EC8F0D8207471E63AC /* PLDLinkAuthentication.m in Sources */,
+				D3DE406C8641428A9EE032BD5EA3410A /* PLDLinkError.m in Sources */,
+				2627CAAB211D7763CC5BA719F66513FB /* PLDLongTailInstitution.m in Sources */,
+				8E1E8CB179D88136BEEE33980DB83FBF /* PLDNetworkApi.m in Sources */,
+				2AEF8EC284836E2D3641C38EEE36EC0E /* PLDResourceBundle.m in Sources */,
+				5EF02C120C0AB4E38AFA92894E661BA9 /* PLDTransaction.m in Sources */,
+				71F8474E241EDF0DDBD4593EA8F8F88C /* UIColor+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD345A994F53DED4BFD36773BCA0C88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5826DE3241175CF988808B4BD77D20E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plaid-ios-sdk";
+			target = 2042B5DB2C25E1074193B18B1720546D /* plaid-ios-sdk */;
+			targetProxy = BFE740A22EB10EC68751A754EA1F28B8 /* PBXContainerItemProxy */;
+		};
+		5E4C52DB5F8B579E4C4906BA4D8AD15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plaid-ios-sdk";
+			target = 2042B5DB2C25E1074193B18B1720546D /* plaid-ios-sdk */;
+			targetProxy = 6DE3D16212879F9ECBB85D2D0957F71F /* PBXContainerItemProxy */;
+		};
+		97942A69053481FFCCA299599868E142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plaid;
+			target = A9A06AE06B89E553A8C6646F39D27675 /* Plaid */;
+			targetProxy = 10ABF984CCD8B693B2A20BA317A4C0D6 /* PBXContainerItemProxy */;
+		};
+		9F1406DBF1AA398C2FD15B413F023390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plaid-ios-link";
+			target = 37577BCA5281010AAAF324DABE0CCA14 /* plaid-ios-link */;
+			targetProxy = 212D9ADF41F8B75C49F8E4F027A22CCA /* PBXContainerItemProxy */;
+		};
+		DAE0BB56B029C426473289202E05A34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plaid-ios-sdk-PLDResources";
+			target = 9222B54D07FBDDFB2525A4634DA53F8D /* plaid-ios-sdk-PLDResources */;
+			targetProxy = C830E793F8D082601110F77A6B59D967 /* PBXContainerItemProxy */;
+		};
+		FEE68A1848BB25CB4AFFF9A96E9B32EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plaid-ios-link-Resources";
+			target = FB2A26C2616F4A32EE5D278B55A717CF /* plaid-ios-link-Resources */;
+			targetProxy = 69A15147332E2FBC8A8F74070287AEF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EC75CE7339554C8BB9DE3F117BC801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/plaid-ios-link";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-link/ResourceBundle-Resources-plaid-ios-link-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		11F81734C99907324307DC41EF84D911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F71D705AADA969267F11A07424D68AF /* Plaid.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5DD6D88AD14734931984B8BE1061CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/plaid-ios-sdk";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-sdk/ResourceBundle-PLDResources-plaid-ios-sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PLDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4221E99CCC751675FC94AAD43D5DD5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CABC5EB2178F842DE907769F6DF08E /* Pods-PlaidIntegration.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B3155CA450CCC9729980FC0B6EDAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = plaid_ios_sdk;
+				PRODUCT_NAME = plaid_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64EC5628BDF017CA67E3F8D6EF7F14C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/plaid-ios-sdk";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-sdk/ResourceBundle-PLDResources-plaid-ios-sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PLDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7AD04D1D43E6171227B5A7421645E508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/plaid-ios-link";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-link/ResourceBundle-Resources-plaid-ios-link-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9F3127366F94678FA0F825336572F378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F71D705AADA969267F11A07424D68AF /* Plaid.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A16C57E4B0E3A4504C91867FCF95690E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plaid-ios-link/plaid-ios-link-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-link/plaid-ios-link-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/plaid-ios-link/plaid-ios-link.modulemap";
+				PRODUCT_MODULE_NAME = plaid_ios_link;
+				PRODUCT_NAME = plaid_ios_link;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5007FF476B4711D5E0E61F57DF4C392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7801BBA334A2BF23F328C422C029FAC /* plaid-ios-sdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/plaid-ios-sdk/plaid-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = plaid_ios_sdk;
+				PRODUCT_NAME = plaid_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C14DE472F3BEE98BCDA53D19BC37F650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC25A074DEE03FC3FF5E40CF2F9F13 /* plaid-ios-link.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plaid-ios-link/plaid-ios-link-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plaid-ios-link/plaid-ios-link-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/plaid-ios-link/plaid-ios-link.modulemap";
+				PRODUCT_MODULE_NAME = plaid_ios_link;
+				PRODUCT_NAME = plaid_ios_link;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D78297083F1CC6839F16BD70912D4EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44511FEE33FCAE986E597F0D55B782F1 /* Pods-PlaidIntegration.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023A18059B05C25B9AF27099DB0F9030 /* Build configuration list for PBXNativeTarget "Pods-PlaidIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4221E99CCC751675FC94AAD43D5DD5C5 /* Debug */,
+				D78297083F1CC6839F16BD70912D4EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A359AA91A6805FF975C2386F3DD780 /* Build configuration list for PBXNativeTarget "plaid-ios-link-Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD04D1D43E6171227B5A7421645E508 /* Debug */,
+				09EC75CE7339554C8BB9DE3F117BC801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493015B2D9D1CAD8E271BC31C4107220 /* Build configuration list for PBXNativeTarget "plaid-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3155CA450CCC9729980FC0B6EDAAEA /* Debug */,
+				A5007FF476B4711D5E0E61F57DF4C392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F35AF9B44513561FD67DBE7D144F879 /* Build configuration list for PBXNativeTarget "plaid-ios-link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16C57E4B0E3A4504C91867FCF95690E /* Debug */,
+				C14DE472F3BEE98BCDA53D19BC37F650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E980BF6D2B63EE1D7073683D945567 /* Build configuration list for PBXAggregateTarget "Plaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3127366F94678FA0F825336572F378 /* Debug */,
+				11F81734C99907324307DC41EF84D911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D806076C4B6DC75AEFC81AF944BEA39B /* Build configuration list for PBXNativeTarget "plaid-ios-sdk-PLDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5DD6D88AD14734931984B8BE1061CD /* Debug */,
+				64EC5628BDF017CA67E3F8D6EF7F14C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

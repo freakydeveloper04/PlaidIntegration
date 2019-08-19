@@ -1,0 +1,25 @@
+PODS:
+  - Plaid (1.1.19)
+  - plaid-ios-link (0.2.1):
+    - plaid-ios-sdk
+  - plaid-ios-sdk (0.3.6)
+
+DEPENDENCIES:
+  - Plaid
+  - plaid-ios-link
+  - plaid-ios-sdk
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Plaid
+    - plaid-ios-link
+    - plaid-ios-sdk
+
+SPEC CHECKSUMS:
+  Plaid: 2eb63c0e8a614af699277bd83326e007ee742981
+  plaid-ios-link: 0ef45f18cdb2d1c3b9eaf6c2b457c950909df725
+  plaid-ios-sdk: e9865b0fe6a79b3d30d886171d7a26f7e1408935
+
+PODFILE CHECKSUM: 434d5a7950d1841f44f3db4adffbec3cc6159025
+
+COCOAPODS: 1.7.0

@@ -1,0 +1,6 @@
+framework module Pods_PlaidIntegration {
+  umbrella header "Pods-PlaidIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}

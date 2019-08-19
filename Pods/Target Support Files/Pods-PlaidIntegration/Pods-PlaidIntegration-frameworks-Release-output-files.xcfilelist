@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/plaid_ios_link.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/plaid_ios_sdk.framework
