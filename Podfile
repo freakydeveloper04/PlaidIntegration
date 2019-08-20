@@ -8,8 +8,6 @@ target 'PlaidIntegration' do
   # Pods for PlaidIntegration
 
 
-	pod 'plaid-ios-sdk' 
-	pod 'plaid-ios-link'
 	pod 'Plaid'
 
 end

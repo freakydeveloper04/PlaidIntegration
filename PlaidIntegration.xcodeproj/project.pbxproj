@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48DDCBF6230C925D0044E0C5 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DDCBF5230C925D0044E0C5 /* LinkViewController.swift */; };
 		801F6008229F9DDF009DC7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F6007229F9DDF009DC7DD /* AppDelegate.swift */; };
-		801F600A229F9DDF009DC7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F6009229F9DDF009DC7DD /* ViewController.swift */; };
 		801F600D229F9DDF009DC7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801F600B229F9DDF009DC7DD /* Main.storyboard */; };
 		801F600F229F9DE1009DC7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801F600E229F9DE1009DC7DD /* Assets.xcassets */; };
 		801F6012229F9DE1009DC7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801F6010229F9DE1009DC7DD /* LaunchScreen.storyboard */; };
@@ -17,9 +17,9 @@
 
 /* Begin PBXFileReference section */
 		00A8F28411C52690850F2F5A /* Pods-PlaidIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaidIntegration.release.xcconfig"; path = "Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		48DDCBF5230C925D0044E0C5 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
 		801F6004229F9DDF009DC7DD /* PlaidIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaidIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801F6007229F9DDF009DC7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		801F6009229F9DDF009DC7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		801F600C229F9DDF009DC7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		801F600E229F9DE1009DC7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801F6011229F9DE1009DC7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,6 @@
 				A35F4A079A5D10674C38A660 /* Pods-PlaidIntegration.debug.xcconfig */,
 				00A8F28411C52690850F2F5A /* Pods-PlaidIntegration.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				801F6007229F9DDF009DC7DD /* AppDelegate.swift */,
-				801F6009229F9DDF009DC7DD /* ViewController.swift */,
+				48DDCBF5230C925D0044E0C5 /* LinkViewController.swift */,
 				801F600B229F9DDF009DC7DD /* Main.storyboard */,
 				801F600E229F9DE1009DC7DD /* Assets.xcassets */,
 				801F6010229F9DE1009DC7DD /* LaunchScreen.storyboard */,
@@ -204,8 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801F600A229F9DDF009DC7DD /* ViewController.swift in Sources */,
 				801F6008229F9DDF009DC7DD /* AppDelegate.swift in Sources */,
+				48DDCBF6230C925D0044E0C5 /* LinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

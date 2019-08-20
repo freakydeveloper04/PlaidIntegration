@@ -1,4 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-PlaidIntegration/Pods-PlaidIntegration-frameworks.sh
-${PODS_ROOT}/Plaid/ios/LinkKit.framework
-${BUILT_PRODUCTS_DIR}/plaid-ios-link/plaid_ios_link.framework
-${BUILT_PRODUCTS_DIR}/plaid-ios-sdk/plaid_ios_sdk.framework
+${PODS_ROOT}/Plaid/LinkKit.framework
